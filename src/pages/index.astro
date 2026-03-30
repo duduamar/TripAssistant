@@ -2,20 +2,30 @@
 import { stat } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import DayNav from '../components/DayNav.astro';
+import TopTabs from '../components/TopTabs.astro';
 import { appConfig } from '../config/app';
-import { parseTripMarkdown, renderInlineMarkdown, renderMarkdown } from '../lib/trip';
+import { parseTripMarkdown, renderMarkdown } from '../lib/trip';
+import { dayRoute, summarizeDay, truncateText } from '../lib/ui';
 import rawMarkdown from '../content/trips/wa-mt-id-roadtrip.md?raw';
+import '../styles/trip.css';
 
 const markdownPath = resolve('src/content/trips/wa-mt-id-roadtrip.md');
 const fileStats = await stat(markdownPath);
 
 const trip = parseTripMarkdown(rawMarkdown);
+const baseUrl = import.meta.env.BASE_URL;
 const preambleHtml = renderMarkdown(trip.preambleMarkdown);
-const dayCards = trip.days.map((day) => ({
+const days = trip.days.map((day) => ({
   ...day,
-  headingHtml: renderInlineMarkdown(day.titleMarkdown),
-  bodyHtml: renderMarkdown(day.markdown)
+  shortTitle: truncateText(day.title, 64),
+  preview: summarizeDay(day.markdown),
+  href: dayRoute(baseUrl, day.number)
+}));
+
+const dayRoutes = days.map((day) => ({
+  number: day.number,
+  dateIso: day.dateIso,
+  href: day.href
 }));
 
 const lastUpdated = new Intl.DateTimeFormat('en-US', {
@@ -23,58 +33,49 @@ const lastUpdated = new Intl.DateTimeFormat('en-US', {
   timeStyle: 'short'
 }).format(fileStats.mtime);
 
-const dayMetadata = dayCards.map((day) => ({
-  id: day.id,
-  number: day.number,
-  dateIso: day.dateIso
-}));
-
-const baseUrl = import.meta.env.BASE_URL;
-const pageDescription = 'Day-by-day road trip guide with offline support and one-tap navigation links.';
+const pageDescription = 'iPhone-friendly trip overview with day tabs and offline support.';
 ---
 
 <BaseLayout title={trip.title} description={pageDescription}>
-  <main class="shell" data-map-provider={appConfig.mapProvider} data-base-url={baseUrl}>
-    <section class="hero">
+  <main class="shell" data-base-url={baseUrl}>
+    <TopTabs days={days} active="overview" baseUrl={baseUrl} />
+
+    <section class="card">
       <p class="eyebrow">Trip Assistant</p>
       <h1>{trip.title}</h1>
       <p class="meta-line">Last updated: {lastUpdated}</p>
-      <p class="meta-line">
-        Offline mode: <strong>{appConfig.offlineMode}</strong> | Single trip mode:
-        <strong>{appConfig.singleTrip ? 'on' : 'off'}</strong>
-      </p>
-      <div class="quick-actions">
-        <button id="today-button" type="button">Go To Today</button>
-        <button id="next-button" type="button">Next Day</button>
+      <p class="meta-line">Mode: {appConfig.offlineMode} offline · {appConfig.mapProvider} maps</p>
+      <div class="inline-links">
+        <button class="button-link alt" type="button" id="today-button">Open Today</button>
       </div>
     </section>
 
-    <DayNav days={dayCards.map((day) => ({ id: day.id, number: day.number }))} />
-
-    <article class="trip-markdown preamble" set:html={preambleHtml} />
-
-    <section class="days" aria-label="Day-by-day itinerary">
-      {dayCards.map((day, index) => (
-        <details class="day-card" id={day.id} open={index === 0}>
-          <summary>
-            <span class="day-number">Day {day.number}</span>
-            {day.dateText && <span class="day-date">{day.dateText}</span>}
-            <span class="day-title" set:html={day.headingHtml} />
-          </summary>
-          <div class="trip-markdown day-content" set:html={day.bodyHtml} />
-        </details>
+    <section class="card day-grid" aria-label="Day pages">
+      {days.map((day) => (
+        <article class="day-summary">
+          <div class="day-head">
+            <p class="day-name">Day {day.number}</p>
+            {day.dateText && <p class="day-date">{day.dateText}</p>}
+          </div>
+          <h2 class="day-title">{day.shortTitle}</h2>
+          <p class="day-preview">{day.preview}</p>
+          <div class="inline-links">
+            <a class="button-link" href={day.href}>Open Day {day.number}</a>
+          </div>
+        </article>
       ))}
     </section>
+
+    <details class="card">
+      <summary><strong>Full Plan Reference</strong> (from markdown)</summary>
+      <article class="trip-markdown" set:html={preambleHtml} />
+    </details>
   </main>
 
-  <script id="trip-day-metadata" type="application/json" set:html={JSON.stringify(dayMetadata)}></script>
+  <script id="trip-day-routes" type="application/json" set:html={JSON.stringify(dayRoutes)}></script>
   <script>
-    const appRoot = document.querySelector('.shell');
-    const baseUrl = appRoot?.getAttribute('data-base-url') ?? '/';
-
-    const dayMetadataNode = document.getElementById('trip-day-metadata');
-    const days = dayMetadataNode ? JSON.parse(dayMetadataNode.textContent ?? '[]') : [];
-    let activeIndex = 0;
+    const routesNode = document.getElementById('trip-day-routes');
+    const dayRoutes = routesNode ? JSON.parse(routesNode.textContent ?? '[]') : [];
 
     function localIsoToday() {
       const now = new Date();
@@ -84,428 +85,50 @@ const pageDescription = 'Day-by-day road trip guide with offline support and one
       return `${yyyy}-${mm}-${dd}`;
     }
 
-    function getSuggestedDayIndex() {
+    function getSuggestedDayRoute() {
       const todayIso = localIsoToday();
-
-      const exact = days.findIndex((day) => day.dateIso === todayIso);
-      if (exact >= 0) {
-        return exact;
+      const exact = dayRoutes.find((day) => day.dateIso === todayIso);
+      if (exact) {
+        return exact.href;
       }
 
-      const next = days.findIndex((day) => day.dateIso && day.dateIso > todayIso);
-      if (next >= 0) {
-        return next;
+      const next = dayRoutes.find((day) => day.dateIso && day.dateIso > todayIso);
+      if (next) {
+        return next.href;
       }
 
-      return 0;
+      return dayRoutes[0]?.href;
     }
 
-    function jumpToDay(index) {
-      if (index < 0 || index >= days.length) {
-        return;
-      }
-
-      activeIndex = index;
-      const target = document.getElementById(days[index].id);
-      if (!target) {
-        return;
-      }
-
-      if (target instanceof HTMLDetailsElement) {
-        target.open = true;
-      }
-
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      history.replaceState(null, '', `#${days[index].id}`);
-    }
-
-    function wireDayButtons() {
-      const todayButton = document.getElementById('today-button');
-      const nextButton = document.getElementById('next-button');
-
-      if (!(todayButton instanceof HTMLButtonElement) || !(nextButton instanceof HTMLButtonElement)) {
-        return;
-      }
-
+    const todayButton = document.getElementById('today-button');
+    if (todayButton instanceof HTMLButtonElement) {
       todayButton.addEventListener('click', () => {
-        const suggested = getSuggestedDayIndex();
-        jumpToDay(suggested);
-      });
-
-      nextButton.addEventListener('click', () => {
-        const next = Math.min(activeIndex + 1, days.length - 1);
-        jumpToDay(next);
-      });
-    }
-
-    function wireDayNavLinks() {
-      const navLinks = document.querySelectorAll('[data-day-link]');
-      navLinks.forEach((link) => {
-        link.addEventListener('click', () => {
-          const parsed = Number.parseInt(link.getAttribute('data-day-link') ?? '', 10);
-          if (!Number.isNaN(parsed)) {
-            const found = days.findIndex((day) => day.number === parsed);
-            if (found >= 0) {
-              activeIndex = found;
-            }
-          }
-        });
-      });
-    }
-
-    function isMapUrl(urlString) {
-      try {
-        const url = new URL(urlString);
-        const host = url.hostname.toLowerCase();
-        if (
-          host.includes('google.') ||
-          host.includes('maps.apple.com') ||
-          host.includes('waze.com') ||
-          host.includes('openstreetmap.org')
-        ) {
-          return true;
+        const href = getSuggestedDayRoute();
+        if (href) {
+          window.location.href = href;
         }
-        return false;
-      } catch {
-        return false;
-      }
+      });
     }
 
-    function toGoogleMapsSearch(label) {
-      return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(label)}`;
-    }
+    const appRoot = document.querySelector('.shell');
+    const baseUrl = appRoot?.getAttribute('data-base-url') ?? '/';
+    const fallbackUrl = `${baseUrl}offline-image.svg`;
+    document.querySelectorAll('img').forEach((image) => {
+      image.loading = 'lazy';
+      image.decoding = 'async';
 
-    function addMapButtons() {
-      const dayContentLinks = document.querySelectorAll('.day-content li a[href]');
-
-      dayContentLinks.forEach((link) => {
-        const listItem = link.closest('li');
-        if (!listItem || listItem.querySelector('.map-action')) {
+      image.addEventListener('error', () => {
+        if (image.dataset.offlineHandled === 'yes') {
           return;
         }
 
-        const href = link.getAttribute('href') ?? '';
-        const label = (link.textContent ?? '').trim() || href;
-
-        const mapAction = document.createElement('a');
-        mapAction.className = 'map-action';
-        mapAction.textContent = 'Open in Google Maps';
-        mapAction.href = isMapUrl(href) ? href : toGoogleMapsSearch(label);
-        mapAction.target = '_blank';
-        mapAction.rel = 'noopener noreferrer';
-
-        listItem.append(' ', mapAction);
+        image.dataset.offlineHandled = 'yes';
+        image.src = fallbackUrl;
+        image.classList.add('offline-fallback');
+        if (!image.alt) {
+          image.alt = 'Image unavailable offline';
+        }
       });
-    }
-
-    function setImageFallbacks() {
-      const fallbackUrl = `${baseUrl}offline-image.svg`;
-      document.querySelectorAll('img').forEach((image) => {
-        image.loading = 'lazy';
-        image.decoding = 'async';
-
-        image.addEventListener('error', () => {
-          if (image.dataset.offlineHandled === 'yes') {
-            return;
-          }
-
-          image.dataset.offlineHandled = 'yes';
-          image.src = fallbackUrl;
-          image.classList.add('offline-fallback');
-          if (!image.alt) {
-            image.alt = 'Image unavailable offline';
-          }
-        });
-      });
-    }
-
-    if (days.length > 0) {
-      activeIndex = getSuggestedDayIndex();
-    }
-
-    wireDayButtons();
-    wireDayNavLinks();
-    addMapButtons();
-    setImageFallbacks();
+    });
   </script>
-
-  <style>
-    :global(:root) {
-      color-scheme: only light;
-      --bg-top: #f6f4eb;
-      --bg-bottom: #d5e5df;
-      --ink: #153243;
-      --ink-soft: #2a4a57;
-      --surface: #ffffffcc;
-      --surface-strong: #ffffffef;
-      --accent: #dd6b2d;
-      --accent-soft: #f4c39f;
-      --chip-bg: #1f4e5f;
-      --chip-text: #f8fbfd;
-      --border: #c8d7d2;
-      --shadow: 0 10px 32px rgba(24, 62, 78, 0.18);
-      font-family: "Avenir Next", "Trebuchet MS", "Segoe UI", sans-serif;
-      background:
-        radial-gradient(1200px 420px at 5% -30%, #ffc286 0%, transparent 60%),
-        radial-gradient(900px 360px at 92% -20%, #82b29a 0%, transparent 65%),
-        linear-gradient(170deg, var(--bg-top), var(--bg-bottom));
-      color: var(--ink);
-    }
-
-    :global(body) {
-      margin: 0;
-      min-height: 100vh;
-      background: transparent;
-      line-height: 1.55;
-    }
-
-    .shell {
-      width: min(960px, calc(100vw - 1.5rem));
-      margin: 1rem auto 2.5rem;
-      display: grid;
-      gap: 1rem;
-    }
-
-    .hero {
-      background: var(--surface-strong);
-      border: 1px solid var(--border);
-      border-radius: 1.25rem;
-      padding: 1rem;
-      box-shadow: var(--shadow);
-      backdrop-filter: blur(8px);
-    }
-
-    .eyebrow {
-      margin: 0;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      font-weight: 700;
-      font-size: 0.72rem;
-      color: var(--ink-soft);
-    }
-
-    h1 {
-      margin: 0.25rem 0 0.5rem;
-      line-height: 1.2;
-      font-size: clamp(1.3rem, 4.2vw, 2rem);
-    }
-
-    .meta-line {
-      margin: 0.2rem 0;
-      color: var(--ink-soft);
-      font-size: 0.9rem;
-    }
-
-    .quick-actions {
-      display: flex;
-      gap: 0.6rem;
-      margin-top: 0.9rem;
-    }
-
-    .quick-actions button {
-      appearance: none;
-      border: 0;
-      border-radius: 999px;
-      padding: 0.66rem 0.95rem;
-      font-size: 0.87rem;
-      font-weight: 700;
-      color: var(--chip-text);
-      background: linear-gradient(120deg, #1f4e5f, #256f8f);
-      box-shadow: 0 4px 12px rgba(31, 78, 95, 0.28);
-    }
-
-    .day-nav {
-      position: sticky;
-      top: 0.25rem;
-      z-index: 10;
-      display: flex;
-      gap: 0.45rem;
-      overflow-x: auto;
-      padding: 0.65rem;
-      border-radius: 1rem;
-      background: #f9fffcf2;
-      border: 1px solid var(--border);
-      box-shadow: 0 6px 20px rgba(21, 50, 67, 0.14);
-      -webkit-overflow-scrolling: touch;
-    }
-
-    .day-chip {
-      flex: 0 0 auto;
-      text-decoration: none;
-      border-radius: 999px;
-      background: var(--chip-bg);
-      color: var(--chip-text);
-      padding: 0.45rem 0.8rem;
-      font-size: 0.78rem;
-      font-weight: 700;
-    }
-
-    .preamble {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 1.25rem;
-      padding: 1rem;
-      box-shadow: var(--shadow);
-    }
-
-    .days {
-      display: grid;
-      gap: 0.8rem;
-    }
-
-    .day-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 1rem;
-      overflow: clip;
-      box-shadow: var(--shadow);
-    }
-
-    .day-card summary {
-      list-style: none;
-      cursor: pointer;
-      display: grid;
-      gap: 0.2rem;
-      padding: 0.9rem 1rem;
-      background: linear-gradient(125deg, #fefcf7, #edf8f3);
-      border-bottom: 1px solid transparent;
-    }
-
-    .day-card[open] summary {
-      border-bottom-color: var(--border);
-    }
-
-    .day-card summary::-webkit-details-marker {
-      display: none;
-    }
-
-    .day-number {
-      font-weight: 800;
-      font-size: 0.9rem;
-      color: #8f3f17;
-    }
-
-    .day-date {
-      font-size: 0.82rem;
-      color: var(--ink-soft);
-    }
-
-    .day-title {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--ink);
-    }
-
-    .day-content {
-      padding: 0.95rem;
-    }
-
-    :global(.trip-markdown h1),
-    :global(.trip-markdown h2),
-    :global(.trip-markdown h3) {
-      line-height: 1.26;
-      scroll-margin-top: 6rem;
-      color: #193f52;
-    }
-
-    :global(.trip-markdown h1) {
-      font-size: clamp(1.1rem, 3.6vw, 1.6rem);
-    }
-
-    :global(.trip-markdown h2) {
-      font-size: clamp(1rem, 3.1vw, 1.35rem);
-      margin-top: 1.5rem;
-    }
-
-    :global(.trip-markdown h3) {
-      font-size: clamp(0.96rem, 2.9vw, 1.15rem);
-      margin-top: 1.3rem;
-    }
-
-    :global(.trip-markdown p),
-    :global(.trip-markdown li) {
-      font-size: 0.95rem;
-      color: #1e455a;
-    }
-
-    :global(.trip-markdown table) {
-      display: block;
-      width: 100%;
-      overflow-x: auto;
-      border-collapse: collapse;
-      margin: 0.9rem 0;
-      font-size: 0.85rem;
-    }
-
-    :global(.trip-markdown th),
-    :global(.trip-markdown td) {
-      border: 1px solid var(--border);
-      padding: 0.45rem;
-      text-align: left;
-      background: #fff;
-      white-space: nowrap;
-    }
-
-    :global(.trip-markdown img) {
-      width: min(100%, 720px);
-      border-radius: 0.8rem;
-      display: block;
-      margin: 0.65rem 0;
-      border: 1px solid #bcd0c8;
-      box-shadow: 0 8px 24px rgba(25, 63, 82, 0.2);
-      background: #fff;
-    }
-
-    :global(.trip-markdown img.offline-fallback) {
-      padding: 0.5rem;
-      object-fit: contain;
-      max-height: 240px;
-    }
-
-    :global(.trip-markdown a) {
-      color: #0b5f9a;
-      text-decoration-thickness: 2px;
-      text-underline-offset: 2px;
-      word-break: break-word;
-    }
-
-    :global(.trip-markdown li) {
-      margin-bottom: 0.38rem;
-    }
-
-    :global(.trip-markdown .map-action) {
-      display: inline-block;
-      margin-left: 0.4rem;
-      padding: 0.18rem 0.52rem;
-      border-radius: 999px;
-      font-size: 0.73rem;
-      font-weight: 700;
-      text-decoration: none;
-      color: #fff;
-      background: linear-gradient(120deg, #2e8b57, #1f9d61);
-      white-space: nowrap;
-    }
-
-    @media (min-width: 768px) {
-      .shell {
-        width: min(980px, calc(100vw - 2.3rem));
-        margin-top: 1.3rem;
-      }
-
-      .hero,
-      .preamble,
-      .day-content {
-        padding: 1.2rem;
-      }
-
-      .quick-actions button {
-        font-size: 0.92rem;
-        padding: 0.7rem 1.1rem;
-      }
-
-      .day-chip {
-        font-size: 0.82rem;
-      }
-    }
-  </style>
 </BaseLayout>

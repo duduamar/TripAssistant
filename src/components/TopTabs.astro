@@ -1,0 +1,29 @@
+---
+import { compactDayLabel, dayRoute } from '../lib/ui';
+
+interface DayTab {
+  number: number;
+  title: string;
+}
+
+interface Props {
+  days: DayTab[];
+  active: 'overview' | number;
+  baseUrl: string;
+}
+
+const { days, active, baseUrl } = Astro.props;
+---
+
+<nav class="top-tabs" aria-label="Trip tabs">
+  <a class:list={["tab-chip", active === 'overview' && 'is-active']} href={baseUrl}>Overview</a>
+  {days.map((day) => (
+    <a
+      class:list={["tab-chip", active === day.number && 'is-active']}
+      href={dayRoute(baseUrl, day.number)}
+      title={day.title}
+    >
+      {compactDayLabel(day.number)}
+    </a>
+  ))}
+</nav>

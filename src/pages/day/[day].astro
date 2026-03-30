@@ -1,0 +1,137 @@
+---
+import { stat } from 'node:fs/promises';
+import { resolve } from 'node:path';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TopTabs from '../../components/TopTabs.astro';
+import { parseTripMarkdown, renderMarkdown, type DaySection } from '../../lib/trip';
+import { dayRoute, truncateText } from '../../lib/ui';
+import rawMarkdown from '../../content/trips/wa-mt-id-roadtrip.md?raw';
+import '../../styles/trip.css';
+
+const trip = parseTripMarkdown(rawMarkdown);
+
+export function getStaticPaths() {
+  const parsedTrip = parseTripMarkdown(rawMarkdown);
+
+  return parsedTrip.days.map((day, index) => ({
+    params: { day: String(day.number) },
+    props: {
+      day,
+      previousDay: parsedTrip.days[index - 1] ?? null,
+      nextDay: parsedTrip.days[index + 1] ?? null,
+      allDays: parsedTrip.days.map((d) => ({ number: d.number, title: d.title }))
+    }
+  }));
+}
+
+interface Props {
+  day: DaySection;
+  previousDay: DaySection | null;
+  nextDay: DaySection | null;
+  allDays: { number: number; title: string }[];
+}
+
+const { day, previousDay, nextDay, allDays } = Astro.props;
+
+const markdownPath = resolve('src/content/trips/wa-mt-id-roadtrip.md');
+const fileStats = await stat(markdownPath);
+
+const baseUrl = import.meta.env.BASE_URL;
+const bodyHtml = renderMarkdown(day.markdown);
+const pageTitle = `Day ${day.number} · ${trip.title}`;
+
+const lastUpdated = new Intl.DateTimeFormat('en-US', {
+  dateStyle: 'medium',
+  timeStyle: 'short'
+}).format(fileStats.mtime);
+---
+
+<BaseLayout title={pageTitle} description={`Day ${day.number} plan for ${trip.title}`}>
+  <main class="shell" data-base-url={baseUrl}>
+    <TopTabs days={allDays} active={day.number} baseUrl={baseUrl} />
+
+    <section class="card">
+      <p class="eyebrow">Day {day.number}</p>
+      <h1>{truncateText(day.title, 88)}</h1>
+      {day.dateText && <p class="meta-line">{day.dateText}</p>}
+      <p class="meta-line">Last updated: {lastUpdated}</p>
+      <div class="split-nav">
+        {previousDay ? (
+          <a href={dayRoute(baseUrl, previousDay.number)}>← Day {previousDay.number}</a>
+        ) : (
+          <a href={baseUrl}>← Overview</a>
+        )}
+        {nextDay ? (
+          <a href={dayRoute(baseUrl, nextDay.number)}>Day {nextDay.number} →</a>
+        ) : (
+          <a href={baseUrl}>Back To Overview</a>
+        )}
+      </div>
+    </section>
+
+    <article class="card trip-markdown day-content" set:html={bodyHtml} />
+  </main>
+
+  <script>
+    function isMapUrl(urlString) {
+      try {
+        const url = new URL(urlString);
+        const host = url.hostname.toLowerCase();
+        return (
+          host.includes('google.') ||
+          host.includes('maps.apple.com') ||
+          host.includes('waze.com') ||
+          host.includes('openstreetmap.org')
+        );
+      } catch {
+        return false;
+      }
+    }
+
+    function toGoogleMapsSearch(label) {
+      return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(label)}`;
+    }
+
+    const dayContentLinks = document.querySelectorAll('.day-content li a[href]');
+    dayContentLinks.forEach((link) => {
+      const listItem = link.closest('li');
+      if (!listItem || listItem.querySelector('.map-action')) {
+        return;
+      }
+
+      const href = link.getAttribute('href') ?? '';
+      const label = (link.textContent ?? '').trim() || href;
+
+      const mapAction = document.createElement('a');
+      mapAction.className = 'map-action';
+      mapAction.textContent = 'Maps';
+      mapAction.href = isMapUrl(href) ? href : toGoogleMapsSearch(label);
+      mapAction.target = '_blank';
+      mapAction.rel = 'noopener noreferrer';
+
+      listItem.append(' ', mapAction);
+    });
+
+    const appRoot = document.querySelector('.shell');
+    const baseUrl = appRoot?.getAttribute('data-base-url') ?? '/';
+    const fallbackUrl = `${baseUrl}offline-image.svg`;
+
+    document.querySelectorAll('img').forEach((image) => {
+      image.loading = 'lazy';
+      image.decoding = 'async';
+
+      image.addEventListener('error', () => {
+        if (image.dataset.offlineHandled === 'yes') {
+          return;
+        }
+
+        image.dataset.offlineHandled = 'yes';
+        image.src = fallbackUrl;
+        image.classList.add('offline-fallback');
+        if (!image.alt) {
+          image.alt = 'Image unavailable offline';
+        }
+      });
+    });
+  </script>
+</BaseLayout>
