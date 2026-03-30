@@ -1,0 +1,70 @@
+name: Deploy Trip Guide
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Compute Site URL
+        id: site
+        run: |
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          OWNER="${GITHUB_REPOSITORY_OWNER}"
+
+          if [ "${REPO_NAME}" = "${OWNER}.github.io" ]; then
+            echo "base_path=/" >> "$GITHUB_OUTPUT"
+            echo "site_url=https://${OWNER}.github.io" >> "$GITHUB_OUTPUT"
+          else
+            echo "base_path=/${REPO_NAME}/" >> "$GITHUB_OUTPUT"
+            echo "site_url=https://${OWNER}.github.io/${REPO_NAME}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build
+        run: npm run build
+        env:
+          BASE_PATH: ${{ steps.site.outputs.base_path }}
+          SITE_URL: ${{ steps.site.outputs.site_url }}
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

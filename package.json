@@ -1,0 +1,28 @@
+{
+  "name": "tripassistant",
+  "version": "1.0.0",
+  "description": "Mobile-first offline trip guide PWA",
+  "scripts": {
+    "test": "vitest run",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@vite-pwa/astro": "^1.2.0",
+    "astro": "^5.18.1",
+    "gray-matter": "^4.0.3",
+    "marked": "^17.0.5"
+  },
+  "devDependencies": {
+    "@types/marked": "^5.0.2",
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.2"
+  }
+}

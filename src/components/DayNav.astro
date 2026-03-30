@@ -1,0 +1,18 @@
+---
+interface DayLink {
+  id: string;
+  number: number;
+}
+
+interface Props {
+  days: DayLink[];
+}
+
+const { days } = Astro.props;
+---
+
+<nav class="day-nav" aria-label="Day navigation">
+  {days.map((day) => (
+    <a class="day-chip" href={`#${day.id}`} data-day-link={day.number}>Day {day.number}</a>
+  ))}
+</nav>
