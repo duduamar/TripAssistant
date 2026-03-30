@@ -28,6 +28,7 @@ body {
   min-height: 100vh;
   line-height: 1.55;
   overflow-x: hidden;
+  padding-bottom: calc(5.2rem + env(safe-area-inset-bottom));
 }
 
 .shell {
@@ -75,12 +76,15 @@ h1 {
 }
 
 .top-tabs {
-  position: sticky;
-  top: 0.2rem;
+  position: fixed;
+  left: 50%;
+  bottom: calc(0.35rem + env(safe-area-inset-bottom));
+  transform: translateX(-50%);
   z-index: 12;
   display: flex;
   gap: 0.45rem;
   overflow-x: auto;
+  width: min(860px, calc(100vw - 1rem));
   padding: 0.55rem;
   border-radius: 0.95rem;
   border: 1px solid var(--border);
@@ -306,9 +310,22 @@ button.button-link.alt {
 }
 
 @media (min-width: 768px) {
+  body {
+    padding-bottom: 0;
+  }
+
   .shell {
     width: min(920px, calc(100vw - 1.8rem));
     margin-top: 1rem;
+  }
+
+  .top-tabs {
+    position: sticky;
+    left: auto;
+    bottom: auto;
+    top: 0.2rem;
+    width: auto;
+    transform: none;
   }
 
   .card {
