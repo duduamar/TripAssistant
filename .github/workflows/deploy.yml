@@ -52,6 +52,7 @@ jobs:
         env:
           BASE_PATH: ${{ steps.site.outputs.base_path }}
           SITE_URL: ${{ steps.site.outputs.site_url }}
+          PUBLIC_APP_VERSION: ${{ github.run_number }}-${{ github.sha }}
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3

@@ -44,6 +44,10 @@ const lastUpdated = new Intl.DateTimeFormat('en-US', {
   dateStyle: 'medium',
   timeStyle: 'short'
 }).format(fileStats.mtime);
+const rawAppVersion = String(import.meta.env.PUBLIC_APP_VERSION ?? 'local');
+const appVersion = rawAppVersion.includes('-')
+  ? `${rawAppVersion.split('-')[0]}-${rawAppVersion.split('-')[1]?.slice(0, 7) ?? ''}`
+  : rawAppVersion;
 ---
 
 <BaseLayout title={pageTitle} description={`Day ${day.number} plan for ${trip.title}`}>
@@ -55,6 +59,7 @@ const lastUpdated = new Intl.DateTimeFormat('en-US', {
       <h1>{truncateText(day.title, 88)}</h1>
       {day.dateText && <p class="meta-line">{day.dateText}</p>}
       <p class="meta-line">Last updated: {lastUpdated}</p>
+      <p class="meta-line">Build: {appVersion}</p>
       <div class="split-nav">
         {previousDay ? (
           <a href={dayRoute(baseUrl, previousDay.number)}>← Day {previousDay.number}</a>

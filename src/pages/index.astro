@@ -32,6 +32,10 @@ const lastUpdated = new Intl.DateTimeFormat('en-US', {
   dateStyle: 'medium',
   timeStyle: 'short'
 }).format(fileStats.mtime);
+const rawAppVersion = String(import.meta.env.PUBLIC_APP_VERSION ?? 'local');
+const appVersion = rawAppVersion.includes('-')
+  ? `${rawAppVersion.split('-')[0]}-${rawAppVersion.split('-')[1]?.slice(0, 7) ?? ''}`
+  : rawAppVersion;
 
 const pageDescription = 'iPhone-friendly trip overview with day tabs and offline support.';
 ---
@@ -44,6 +48,7 @@ const pageDescription = 'iPhone-friendly trip overview with day tabs and offline
       <p class="eyebrow">Trip Assistant</p>
       <h1>{trip.title}</h1>
       <p class="meta-line">Last updated: {lastUpdated}</p>
+      <p class="meta-line">Build: {appVersion}</p>
       <p class="meta-line">Mode: {appConfig.offlineMode} offline · {appConfig.mapProvider} maps</p>
       <div class="inline-links">
         <button class="button-link alt" type="button" id="today-button">Open Today</button>
