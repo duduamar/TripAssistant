@@ -31,6 +31,12 @@ body {
   padding-bottom: calc(5.2rem + env(safe-area-inset-bottom));
 }
 
+@media (display-mode: standalone) {
+  body {
+    padding-top: calc(env(safe-area-inset-top) + 0.4rem);
+  }
+}
+
 .shell {
   width: min(860px, calc(100vw - 1rem));
   margin: 0.5rem auto 1.6rem;
