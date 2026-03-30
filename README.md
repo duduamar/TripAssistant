@@ -29,12 +29,23 @@ npm run build
 npm test
 ```
 
-## iPhone install
+## Use On iPhone
 
-1. Open your published GitHub Pages URL in Safari.
-2. Tap Share.
+### Add to Home Screen
+
+1. On your iPhone, open Safari and go to [https://duduamar.github.io/TripAssistant/](https://duduamar.github.io/TripAssistant/).
+2. Tap the Share button (square with upward arrow).
 3. Tap **Add to Home Screen**.
-4. Launch from the icon like a normal app.
+4. Keep the default name (`Trip Guide`) or rename it.
+5. Tap **Add**.
+6. Launch it from your Home Screen like a normal app.
+
+### Prep for Offline Use (Before Drive Days)
+
+1. Open the app once while on Wi-Fi.
+2. Tap through each day (Day 1 to Day 8) so pages/assets are cached.
+3. Keep it open for a few seconds after browsing to allow background caching.
+4. Optional check: turn on Airplane Mode and reopen the app to confirm itinerary text loads.
 
 ## Content contract
 
