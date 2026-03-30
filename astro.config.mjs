@@ -14,9 +14,9 @@ export default defineConfig({
       includeAssets: [
         'favicon.svg',
         'offline-image.svg',
-        'apple-touch-icon.png',
-        'icon-192.png',
-        'icon-512.png'
+        'apple-touch-icon-v2.png',
+        'icon-192-v2.png',
+        'icon-512-v2.png'
       ],
       manifest: {
         name: 'Trip Assistant',
@@ -30,17 +30,17 @@ export default defineConfig({
         start_url: base,
         icons: [
           {
-            src: `${base}icon-192.png`,
+            src: `${base}icon-192-v2.png`,
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: `${base}icon-512.png`,
+            src: `${base}icon-512-v2.png`,
             sizes: '512x512',
             type: 'image/png'
           },
           {
-            src: `${base}icon-512.png`,
+            src: `${base}icon-512-v2.png`,
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any maskable'
