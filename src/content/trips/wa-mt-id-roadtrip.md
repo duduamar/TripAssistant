@@ -33,27 +33,27 @@ end_location: Bothell, WA
 - Party size: 2 adults, 1 child age 8, 1 child age 3
 - Vehicle: Avis full-size SUV rental, pickup Fri, Jul 24 and return Sun, Aug 2 at the Bellevue location
 - Fuel estimate: ~1,500 miles total, 18 mpg, $5.25/gal
-- Food estimate: $60/adult/day and $30/child/day (8 days)
-- Taxes/fees not included where noted
+- Food estimate: $60/adult/day and $30/child/day (8 days), plus 20% tax/tip buffer
+- Taxes/fees: estimates include known or estimated taxes and transaction fees where applicable; lodging and rental are treated as all-in actual totals
 
 | Category | Estimate | Notes / Source |
 | --- | --- | --- |
-| Lodging (actual) | $1,751 | From Lodging Summary |
-| Avis full-size SUV rental (actual) | $785 | Pickup Fri, Jul 24, 2026; return Sun, Aug 2, 2026; Bellevue location |
-| [Leavenworth Adventure Park Alpine Coaster](https://www.leavenworthadventurepark.com/tickets-pricing) | $37 | Adult (13+) 1 ride $20 + Youth (7–12) 1 ride $17; reservations required; prices listed do not include sales tax |
-| [Silverwood Theme Park](https://www.silverwoodthemepark.com/tickets/) (1‑day online) | $272 | Adults (8–64) $75 x3 + Youth (3–7) $47 x1 |
-| [Numerica SkyRide](https://my.spokanecity.org/riverfrontspokane/attractions/skyride/) | $51.80 | Adults $13.95 x3 + Youth (3–12) $9.95 x1; taxes extra |
-| [Whitefish Mountain Resort Scenic Lift Rides](https://skiwhitefish.com/scenic-lift-rides/) (optional) | $102 | Adults $34 x3; children 6 & under free |
+| Lodging (actual, tax/fee inclusive) | $1,751 | From Lodging Summary; assumes booked totals include hotel taxes and fees |
+| Avis full-size SUV rental (actual, tax/fee inclusive) | $785 | Pickup Fri, Jul 24, 2026; return Sun, Aug 2, 2026; Bellevue location |
+| [Leavenworth Adventure Park Alpine Coaster](https://www.leavenworthadventurepark.com/tickets-pricing) | $41 | Base tickets $37 + estimated Leavenworth sales tax, rounded up |
+| [Silverwood Theme Park](https://www.silverwoodthemepark.com/tickets/) (1‑day online) | $289 | Base tickets $272 + estimated Idaho sales tax, rounded up |
+| [Numerica SkyRide](https://my.spokanecity.org/riverfrontspokane/attractions/skyride/) | $57 | Base fares $51.80 + estimated Spokane sales tax, rounded up |
+| [Whitefish Mountain Resort Scenic Lift Rides](https://skiwhitefish.com/scenic-lift-rides/) (optional) | $102 | Adults $34 x3; children 6 & under free; Montana has no general sales tax |
 | [Lookout Pass Scenic Lift Rides](https://skilookout.com/summer-scenic-lift-rides-and-mtn-bike-trails/) (optional) | TBD | Summer 2026 pricing listed as “TBD” |
-| [Glacier National Park vehicle pass (7‑day)](https://www.nps.gov/glac/planyourvisit/fees.htm) | $35 | 1 vehicle |
-| [WA Discover Pass day‑use](https://www.discoverpass.wa.gov/) | $20 | $10/day x2 (Steamboat Rock / Crown Point + Palouse Falls) |
-| [MT State Parks day‑use](https://fwp.mt.gov/stateparks/fees) | $8 | Somers Beach State Park |
-| [ID State Parks day‑use (MVEF)](https://parksandrecreation.idaho.gov/fees/) | $7 | Old Mission State Park |
-| Fuel (estimate) | $438 | Based on assumptions |
-| Food (estimate) | $1,440 | Based on assumptions |
-| Parking/misc (estimate) | $100 | Buffer for paid parking, small fees |
+| [Glacier National Park vehicle pass (7‑day)](https://www.nps.gov/glac/planyourvisit/fees.htm) | $35 | 1 vehicle; fee total |
+| [WA Discover Pass day‑use](https://www.discoverpass.wa.gov/) | $23 | $11.50/day x2 if purchased online/vendor; includes transaction/dealer fees |
+| [MT State Parks day‑use](https://fwp.mt.gov/stateparks/fees) | $8 | Somers Beach State Park; fee total |
+| [ID State Parks day‑use (MVEF)](https://parksandrecreation.idaho.gov/fees/) | $7 | Old Mission State Park; fee total |
+| Fuel (estimate) | $438 | Pump price already includes fuel taxes |
+| Food (estimate) | $1,728 | Base food budget $1,440 + 20% tax/tip buffer |
+| Parking/misc (estimate) | $100 | Buffer for paid parking, small fees, and incidental taxes |
 
-**Estimated total (excluding TBD/optional): $5,047**
+**Estimated total (excluding TBD line items; includes listed optional costs): $5,364**
 
 ---
 
