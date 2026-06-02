@@ -13,6 +13,7 @@ end_location: Bothell, WA
 - Participants: Family of 4 (married couple + 2 daughters ages 8 and 3)
 - Start/End: Bothell, WA
 - Regions: Eastern Washington → Northern Idaho → Western Montana → Glacier → return via Palouse
+- Rental car: Avis full-size SUV, pickup Fri, Jul 24, 2026 and return Sun, Aug 2, 2026 at the Bellevue location ($785)
 
 ## Lodging Summary (Grouped)
 
@@ -30,7 +31,7 @@ end_location: Bothell, WA
 **Assumptions (update if different):**
 
 - Party size: 2 adults, 1 child age 8, 1 child age 3
-- 1 vehicle
+- Vehicle: Avis full-size SUV rental, pickup Fri, Jul 24 and return Sun, Aug 2 at the Bellevue location
 - Fuel estimate: ~1,500 miles total, 22 mpg, $4.00/gal
 - Food estimate: $60/adult/day and $30/child/day (8 days)
 - Taxes/fees not included where noted
@@ -38,6 +39,7 @@ end_location: Bothell, WA
 | Category | Estimate | Notes / Source |
 | --- | --- | --- |
 | Lodging (actual) | $1,751 | From Lodging Summary |
+| Avis full-size SUV rental (actual) | $785 | Pickup Fri, Jul 24, 2026; return Sun, Aug 2, 2026; Bellevue location |
 | [Leavenworth Adventure Park Alpine Coaster](https://www.leavenworthadventurepark.com/tickets-pricing) | $37 | Adult (13+) 1 ride $20 + Youth (7–12) 1 ride $17; reservations required; prices listed do not include sales tax |
 | [Silverwood Theme Park](https://www.silverwoodthemepark.com/tickets/) (1‑day online) | $272 | Adults (8–64) $75 x3 + Youth (3–7) $47 x1 |
 | [Numerica SkyRide](https://my.spokanecity.org/riverfrontspokane/attractions/skyride/) | $51.80 | Adults $13.95 x3 + Youth (3–12) $9.95 x1; taxes extra |
@@ -51,7 +53,7 @@ end_location: Bothell, WA
 | Food (estimate) | $1,440 | Based on assumptions |
 | Parking/misc (estimate) | $100 | Buffer for paid parking, small fees |
 
-**Estimated total (excluding TBD/optional): $4,097**
+**Estimated total (excluding TBD/optional): $4,882**
 
 ---
 
