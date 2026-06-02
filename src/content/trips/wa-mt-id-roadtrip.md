@@ -32,7 +32,7 @@ end_location: Bothell, WA
 
 - Party size: 2 adults, 1 child age 8, 1 child age 3
 - Vehicle: Avis full-size SUV rental, pickup Fri, Jul 24 and return Sun, Aug 2 at the Bellevue location
-- Fuel estimate: ~1,500 miles total, 22 mpg, $4.00/gal
+- Fuel estimate: ~1,500 miles total, 18 mpg, $4.00/gal
 - Food estimate: $60/adult/day and $30/child/day (8 days)
 - Taxes/fees not included where noted
 
@@ -49,11 +49,11 @@ end_location: Bothell, WA
 | [WA Discover Pass day‑use](https://www.discoverpass.wa.gov/) | $20 | $10/day x2 (Steamboat Rock / Crown Point + Palouse Falls) |
 | [MT State Parks day‑use](https://fwp.mt.gov/stateparks/fees) | $8 | Somers Beach State Park |
 | [ID State Parks day‑use (MVEF)](https://parksandrecreation.idaho.gov/fees/) | $7 | Old Mission State Park |
-| Fuel (estimate) | $273 | Based on assumptions |
+| Fuel (estimate) | $333 | Based on assumptions |
 | Food (estimate) | $1,440 | Based on assumptions |
 | Parking/misc (estimate) | $100 | Buffer for paid parking, small fees |
 
-**Estimated total (excluding TBD/optional): $4,882**
+**Estimated total (excluding TBD/optional): $4,942**
 
 ---
 
