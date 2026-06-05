@@ -94,11 +94,14 @@ Highlight photo: [Leavenworth Adventure Park Alpine Coaster](https://www.leavenw
 
 ### Notes / Ideas to Refine
 
-- Buy [Leavenworth Adventure Park Alpine Coaster](https://www.leavenworthadventurepark.com/tickets-pricing) tickets in advance.
-- [Leavenworth Adventure Park](https://www.leavenworthadventurepark.com/tickets-pricing): Alpine Coaster reservations are required, every rider needs a ticket, and prices are listed before sales tax.
+- Book [Leavenworth Adventure Park Alpine Coaster](https://www.leavenworthadventurepark.com/tickets-pricing) in advance; Alpine Coaster reservations are required, every rider needs a ticket, and prices are listed before sales tax.
+- [Leavenworth Adventure Park](https://www.leavenworthadventurepark.com/hours-and-schedule) is currently open Thursday-Monday 10 a.m.-6 p.m.; last reservable timeslot is 5 p.m. and weather can pause operations.
 - [Grand Coulee Dam Visitor Center](https://www.usbr.gov/pn/grandcoulee/visit/gcvc.html) is open daily 8:30 a.m.–5 p.m.; admission is free.
 - [Grand Coulee Dam](https://www.usbr.gov/pn/grandcoulee/visit/index.html): the laser light show and public tours resume May 22, 2026; tours are first-come, first-served and can be canceled without notice.
+- Since arrival will likely be after 5 p.m., treat Grand Coulee as an optional quick outdoor viewpoint/Crown Point stop only; skip the Visitor Center and tour unless the day runs much earlier than expected.
+- The Grand Coulee laser light show is the main after-hours attraction, but in July it is typically late enough that it is probably not worth waiting for before continuing to Spokane with kids.
 - Bring a [Discover Pass](https://www.discoverpass.wa.gov/) if you park at [Steamboat Rock State Park](https://parks.wa.gov/find-parks/state-parks/steamboat-rock-state-park), Crown Point, or Northrup Canyon.
+- [Steamboat Rock State Park](https://parks.wa.gov/find-parks/state-parks/steamboat-rock-state-park) is open 6:30 a.m.-dusk year-round; Crown Point stays open until the Grand Coulee Dam laser show concludes.
 - Optional: Poker at [Northern Quest Poker Room](https://www.northernquest.com/casino/poker) (Spokane night).
 ---
 
@@ -155,7 +158,11 @@ Highlight photo: [Numerica SkyRide](https://my.spokanecity.org/riverfrontspokane
 
 ### Notes / Ideas to Refine
 
-- SkyRide note: In summer it can close for heat/wind; check day-of status on the official site or by calling Riverfront Spokane (509-625-6600).
+- [Riverfront Park](https://my.spokanecity.org/riverfrontspokane/visitor-info/) is open daily 6 a.m.-midnight; no reservation needed for playgrounds or Spokane Falls viewpoints.
+- [Numerica SkyRide](https://my.spokanecity.org/riverfrontspokane/attractions/skyride/) tickets are available online or on-site; advance purchase is optional, not clearly required.
+- SkyRide note: In summer it can close for heat/wind or temperatures over 90°F; make it an early activity and check day-of status on the official site or by calling Riverfront Spokane (509-625-6600).
+- [Coeur d’Alene city parks](https://www.cdaid.org/726/departments/parks/park-list) are open 5 a.m.-11 p.m.; no reservation needed for City Park, beach time, or Fort Sherman playground.
+- [Tubbs Hill](https://coeurdalene.org/places/idaho/coeur-dalene/hiking/tubbs-hill/) does not require tickets or reservations, but the trail is narrow/rocky/rooty and is not a great stroller option.
 
 ---
 
@@ -176,8 +183,9 @@ Highlight photo: [Silverwood Theme Park](https://www.silverwoodthemepark.com/ind
 
 ### Notes / Ideas to Refine
 
-- Purchase Silverwood tickets in advance if possible.
-- Check the official Silverwood calendar for late-July hours.
+- Purchase [Silverwood](https://www.silverwoodthemepark.com/tickets/) tickets online in advance for savings and smoother entry.
+- Official 2026 calendar shows Mon, Jul 27 open: [Silverwood](https://silverwoodthemepark.com/park/simple.php?Month=7&Year=2025) 11 a.m.-9 p.m. and Boulder Beach 11 a.m.-7 p.m.
+- Pack swim gear, towels, sunscreen, and a dry-clothes bag in the daypack; Boulder Beach closes earlier than the theme park.
 
 ---
 
@@ -207,6 +215,13 @@ Highlight photo: [Kootenai Falls & Swinging Bridge](https://www.fs.usda.gov/r01/
 **Stay:** [Holiday Inn Express Hotel & Suites Kalispell](https://www.ihg.com/holidayinnexpress/hotels/us/en/kalispell/fcamt/hoteldetail) (Kalispell)
 
 ### Notes / Ideas to Refine
+
+- [Lakeview Park](https://www.sandpointidaho.gov/parks-and-recreation/page/lakeview-park) is a no-reservation city park stop with restrooms, playground, paths, and lake views.
+- [Sam Owen](https://www.recreation.gov/camping/campgrounds/232202) has day-use/swimming/picnic facilities; campground and group day-use reservations exist, but a casual short stop should not need a reservation.
+- Expect a possible day-use fee/pass at Sam Owen; check posted fee station or current Recreation.gov details before arrival.
+- [Pend Oreille Scenic Byway](https://visitidaho.org/things-to-do/road-trips/pend-oreille-scenic-byway/) pullouts are casual scenic stops with no tickets or reservations.
+- [Kootenai Falls & Swinging Bridge](https://www.fs.usda.gov/r01/kootenai/recreation/kootenai-falls-and-swinging-bridge) does not require tickets or reservations; concession service is typically May-September.
+- Kootenai Falls trail note: the first overlook is the easiest access; the bridge/falls trails include rough trail, a railroad overpass, and metal stairs, so this is not stroller-friendly beyond the early section.
 
 ---
 
@@ -241,7 +256,13 @@ Highlight photo: [Somers Beach State Park](https://fwp.mt.gov/stateparks/somers-
 **Stay:** [Holiday Inn Express Hotel & Suites Kalispell](https://www.ihg.com/holidayinnexpress/hotels/us/en/kalispell/fcamt/hoteldetail) (Kalispell)
 
 ### Notes / Ideas to Refine
+
 - Check late‑June/July lake level updates: [Energy Keepers “Flathead Lake Data”](https://energykeepersinc.com/flathead-lake-data/) and [USGS Flathead Lake at Polson gauge](https://waterdata.usgs.gov/monitoring-location/12371550/)
+- [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake) and [Somers Beach State Park](https://fwp.mt.gov/stateparks/somers-beach) should not require day-use reservations; nonresident Montana state park day-use is generally $8 per vehicle.
+- [Whitefish Mountain Resort scenic lift](https://skiwhitefish.com/scenic-lift-rides/) is scheduled daily in summer 2026 from 10 a.m.-5:30 p.m.; buy online at least 48 hours ahead for the listed 10% savings.
+- Whitefish scenic lift note: children 6 and under are free but still need a free ticket/pass; pets are not permitted on scenic lift rides.
+- [Whitefish Trail](https://www.whitefishlegacy.org/maps-conditions) does not require tickets or reservations; check trail conditions if weather has been wet/muddy.
+- [Stumptown Historical Society Museum](https://www.stumptownhistoricalsociety.org/whitefish-museum) is open Tuesday-Saturday 11 a.m.-3 p.m. and admission is free, so Wednesday works if you want an indoor stop.
 
 ---
 
@@ -280,6 +301,11 @@ Highlight photo: [Going‑to‑the‑Sun Road](https://www.nps.gov/glac/planyour
 
 - Check **current conditions** and **trail status** before your visit: [Current Conditions](https://www.nps.gov/glac/planyourvisit/conditions.htm) and [Trail Status Reports](https://www.nps.gov/glac/planyourvisit/trailstatusreports.htm).
 - 2026 access note (latest official update): **No vehicle reservations required in 2026**, but standard entrance fees still apply. Verify on the official page closer to your trip: [Visiting Glacier in 2026](https://www.nps.gov/glac/planyourvisit/2026-visiting.htm).
+- [Glacier National Park](https://www.nps.gov/glac/planyourvisit/basicinfo.htm) is open 24/7, but facilities, trails, and roads are seasonal and weather-dependent.
+- [Going-to-the-Sun Road](https://www.nps.gov/glac/planyourvisit/goingtothesunroad.htm) does not require vehicle reservations in 2026, but check road status the night before and morning of the visit.
+- Logan Pass is the main logistics risk: parking fills very early; leave Kalispell very early if Hidden Lake Overlook is a priority, or treat Logan Pass as a flexible scenic stop.
+- No separate hike reservations are needed for Trail of the Cedars, Hidden Lake Overlook, St. Mary Falls, or Sun Point; parking availability is the constraint.
+- If Logan Pass parking is full, favor lower-stress west-side stops or use Sun Point as the east-side staging area for shorter walks.
 
 ---
 
@@ -313,7 +339,12 @@ Highlight photo: [Lookout Pass Scenic Lift Rides](https://skilookout.com/summer-
 
 ### Notes / Ideas to Refine
 
-Sierra Silver Mine Tour (Wallace) details: Underground hard‑rock mining tour with a narrated trolley ride through historic Wallace. Bring a light jacket for the mine (around 50°F). Reservations are recommended; check the official site for current hours and booking.
+- [St. Regis Travel Center](https://stregistravelcenter.com/hours-1) is a reliable break: convenience store is open 24/7, gift shop/Dolly V's summer hours are 6 a.m.-10 p.m., and Huck's Grill summer Friday hours are 11 a.m.-10 p.m.
+- [Lookout Pass Scenic Lift Rides](https://skilookout.com/hours-of-operation/) are still uncertain for Summer 2026; current official note says select Fridays/Saturdays/Sundays 10 a.m.-3 p.m. with dates TBD, so do not build the day around it until dates post.
+- [Sierra Silver Mine Tour](https://silverminetour.org/take-the-mine-tour/) details: Underground hard‑rock mining tour with a narrated trolley ride through historic Wallace. Tours depart every 30 minutes, first at 10 a.m. and last at 4 p.m.; plan about 1 hour 15 minutes.
+- Sierra Silver Mine reservations are recommended for a summer Friday; bring a light jacket for the mine, which is around 50°F.
+- [Wallace Historic District](https://wallace.id.gov/) is fine as a casual walk with no reservation; specific museums/shops may have their own hours.
+- [Coeur d’Alene’s Old Mission State Park](https://parksandrecreation.idaho.gov/state-park/coeur-dalenes-old-mission-state-park/) summer hours are 9 a.m.-5 p.m.; expect a $7 motor vehicle entrance fee plus exhibit fees if you go inside.
 
 ---
 
@@ -341,6 +372,11 @@ Highlight photo: [Palouse Falls State Park Heritage Site](https://parks.wa.gov/f
 **Stay:** Home (Bothell)
 
 ### Notes / Ideas to Refine
+
+- [Palouse Falls State Park](https://parks.wa.gov/find-parks/state-parks/palouse-falls-state-park-heritage-site) summer hours are 6:30 a.m.-dusk; bring a Discover Pass or buy a day pass.
+- Palouse Falls is day-use only and parking is extremely limited, especially on weekends and holidays; expect possible waits and avoid arriving too late.
+- All trails into the canyon and to the base of Palouse Falls are permanently closed; keep this stop to the designated viewpoints and short legal paths.
+- [Frenchman Coulee Recreation Area](https://www.nps.gov/places/frenchman-coulee-recreation-area.htm) is a quick scenic/photo stop with no ticket or reservation listed by NPS.
 
 ---
 
