@@ -43,7 +43,7 @@ end_location: Bothell, WA
 | [Leavenworth Adventure Park Alpine Coaster](https://www.leavenworthadventurepark.com/tickets-pricing) | $62 | Actual purchased price |
 | [Silverwood Theme Park](https://www.silverwoodthemepark.com/tickets/) (1‑day online) | $289 | Actual purchased price |
 | [Numerica SkyRide](https://my.spokanecity.org/riverfrontspokane/attractions/skyride/) | $57 | Base fares $51.80 + estimated Spokane sales tax, rounded up |
-| [Whitefish Mountain Resort Scenic Lift Rides](https://skiwhitefish.com/scenic-lift-rides/) (optional) | $102 | Adults $34 x3; children 6 & under free; Montana has no general sales tax |
+| [Whitefish Mountain Resort Scenic Lift Rides](https://skiwhitefish.com/scenic-lift-rides/) | $83 | Actual purchased price |
 | [Lookout Pass Scenic Lift Rides](https://skilookout.com/summer-scenic-lift-rides-and-mtn-bike-trails/) (optional) | TBD | Summer 2026 pricing listed as “TBD” |
 | [Glacier National Park vehicle pass (7‑day)](https://www.nps.gov/glac/planyourvisit/fees.htm) | $35 | 1 vehicle; fee total |
 | [WA Discover Pass day‑use](https://www.discoverpass.wa.gov/) | $23 | $11.50/day x2 if purchased online/vendor; includes transaction/dealer fees |
@@ -53,7 +53,7 @@ end_location: Bothell, WA
 | Food (estimate) | $1,728 | Base food budget $1,440 + 20% tax/tip buffer |
 | Parking/misc (estimate) | $100 | Buffer for paid parking, small fees, and incidental taxes |
 
-**Estimated total (excluding TBD line items; includes listed optional costs): $5,385**
+**Estimated total (excluding TBD line items; includes listed optional costs): $5,366**
 
 ---
 
@@ -169,6 +169,7 @@ Highlight photo: [Silverwood Theme Park](https://www.silverwoodthemepark.com/ind
 **Plan:** Full day (rides + water park)
 
 - Park opens 11AM
+- Tickets purchased
 
 **Drive legs (approx, includes +20% buffer):**
 
@@ -179,7 +180,6 @@ Highlight photo: [Silverwood Theme Park](https://www.silverwoodthemepark.com/ind
 
 ### Notes / Ideas to Refine
 
-- Purchase [Silverwood](https://www.silverwoodthemepark.com/tickets/) tickets online in advance for savings and smoother entry.
 - Pack swim gear, towels, sunscreen, and a dry-clothes bag in the daypack; Boulder Beach closes earlier than the theme park.
 
 ---
@@ -233,6 +233,8 @@ Highlight photo: [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/white
 **Whitefish area**
 
 - [Whitefish Mountain Resort summer activities](https://skiwhitefish.com/summer-activities/) (scenic lift + kid-friendly activities)
+  - [Lift](https://skiwhitefish.com/scenic-lift-rides) tickets purchased
+  - [Lift](https://skiwhitefish.com/scenic-lift-rides) runs from 10AM until 5:30PM
 - [Whitefish Trail](https://www.whitefishlegacy.org/) (easy trails near town)
 - [Stumptown Historical Society Museum](https://www.stumptownhistoricalsociety.org/) (quick indoor stop)
 - [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake) (lakefront time)
@@ -246,8 +248,6 @@ Highlight photo: [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/white
 ### Notes / Ideas to Refine
 
 - [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake) should not require day-use reservations; nonresident Montana state park day-use is generally $8 per vehicle.
-- [Whitefish Mountain Resort scenic lift](https://skiwhitefish.com/scenic-lift-rides/) is scheduled daily in summer 2026 from 10 a.m.-5:30 p.m.; buy online at least 48 hours ahead for the listed 10% savings.
-- Whitefish scenic lift note: children 6 and under are free but still need a free ticket/pass; pets are not permitted on scenic lift rides.
 - [Whitefish Trail](https://www.whitefishlegacy.org/maps-conditions) does not require tickets or reservations; check trail conditions if weather has been wet/muddy.
 - [Stumptown Historical Society Museum](https://www.stumptownhistoricalsociety.org/whitefish-museum) is open Tuesday-Saturday 11 a.m.-3 p.m. and admission is free, so Wednesday works if you want an indoor stop.
 
