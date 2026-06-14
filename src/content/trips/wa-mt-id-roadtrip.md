@@ -40,8 +40,8 @@ end_location: Bothell, WA
 | --- | --- | --- |
 | Lodging (actual, tax/fee inclusive) | $1,751 | From Lodging Summary; assumes booked totals include hotel taxes and fees |
 | Avis full-size SUV rental (actual, tax/fee inclusive) | $785 | Pickup Fri, Jul 24, 2026; return Sun, Aug 2, 2026; Bellevue location |
-| [Leavenworth Adventure Park Alpine Coaster](https://www.leavenworthadventurepark.com/tickets-pricing) | $41 | Base tickets $37 + estimated Leavenworth sales tax, rounded up |
-| [Silverwood Theme Park](https://www.silverwoodthemepark.com/tickets/) (1‑day online) | $289 | Base tickets $272 + estimated Idaho sales tax, rounded up |
+| [Leavenworth Adventure Park Alpine Coaster](https://www.leavenworthadventurepark.com/tickets-pricing) | $62 | Actual purchased price |
+| [Silverwood Theme Park](https://www.silverwoodthemepark.com/tickets/) (1‑day online) | $289 | Actual purchased price |
 | [Numerica SkyRide](https://my.spokanecity.org/riverfrontspokane/attractions/skyride/) | $57 | Base fares $51.80 + estimated Spokane sales tax, rounded up |
 | [Whitefish Mountain Resort Scenic Lift Rides](https://skiwhitefish.com/scenic-lift-rides/) (optional) | $102 | Adults $34 x3; children 6 & under free; Montana has no general sales tax |
 | [Lookout Pass Scenic Lift Rides](https://skilookout.com/summer-scenic-lift-rides-and-mtn-bike-trails/) (optional) | TBD | Summer 2026 pricing listed as “TBD” |
@@ -53,7 +53,7 @@ end_location: Bothell, WA
 | Food (estimate) | $1,728 | Base food budget $1,440 + 20% tax/tip buffer |
 | Parking/misc (estimate) | $100 | Buffer for paid parking, small fees, and incidental taxes |
 
-**Estimated total (excluding TBD line items; includes listed optional costs): $5,364**
+**Estimated total (excluding TBD line items; includes listed optional costs): $5,385**
 
 ---
 
