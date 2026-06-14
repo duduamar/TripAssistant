@@ -235,6 +235,7 @@ Highlight photo: [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/white
 - [Whitefish Mountain Resort summer activities](https://skiwhitefish.com/summer-activities/) (scenic lift + kid-friendly activities)
   - [Lift](https://skiwhitefish.com/scenic-lift-rides) tickets purchased
   - [Lift](https://skiwhitefish.com/scenic-lift-rides) runs from 10AM until 5:30PM
+  - East Rim Loop - 1 mile hiking trail, starts and ends at the summit
 - [Whitefish Trail](https://www.whitefishlegacy.org/) (easy trails near town)
 - [Stumptown Historical Society Museum](https://www.stumptownhistoricalsociety.org/) (quick indoor stop)
 - [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake) (lakefront time)
