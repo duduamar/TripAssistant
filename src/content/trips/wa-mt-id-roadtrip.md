@@ -72,15 +72,16 @@ Highlight photo: [Leavenworth Adventure Park Alpine Coaster](https://www.leavenw
 - [Leavenworth](https://leavenworth.org/visitors/)
   - Quick stop only
   - [Leavenworth Adventure Park Alpine Coaster](https://www.leavenworthadventurepark.com/tickets-pricing)
+    - Tickets purchased, check-in time 10:15-11:30
   - Short stretch / snack break in town if time allows
 - [Coulee Corridor Scenic Byway](https://www.recreation.gov/gateways/13620)
   - Drive from Coulee City north on WA-155 through the Grand Coulee and along [Banks Lake](https://www.recreation.gov/camping/gateways/1206)
 - [Steamboat Rock State Park](https://parks.wa.gov/find-parks/state-parks/steamboat-rock-state-park)
   - Short Banks Lake stop for shoreline views / quick stretch
-  - If time allows, quick viewpoint at [Crown Point](https://parks.wa.gov/find-parks/state-parks/steamboat-rock-state-park)
 - [Grand Coulee Dam Visitor Center](https://www.usbr.gov/pn/grandcoulee/visit/gcvc.html)
-  - Hands-on exhibits and dam viewpoints
-  - Optional [guided tour](https://www.usbr.gov/pn/grandcoulee/visit/tour.html) if timing works
+  - Visitor center is open daily 8:30AM - 5:00PM
+  - Quick viewpoint at [Crown Point](https://parks.wa.gov/find-parks/state-parks/steamboat-rock-state-park)
+  - Since arrival will likely be after 5 p.m., treat Grand Coulee as an optional quick outdoor viewpoint/Crown Point stop only; skip the Visitor Center and tour unless the day runs much earlier than expected.
 
 **Drive legs (approx, includes +20% buffer):**
 
@@ -93,13 +94,6 @@ Highlight photo: [Leavenworth Adventure Park Alpine Coaster](https://www.leavenw
 **Stay:** [Tru by Hilton Spokane Valley](https://www.hilton.com/en/hotels/gegsvru-tru-spokane-valley/hotel-info/) (Spokane Valley)
 
 ### Notes / Ideas to Refine
-
-- Book [Leavenworth Adventure Park Alpine Coaster](https://www.leavenworthadventurepark.com/tickets-pricing) in advance; Alpine Coaster reservations are required, every rider needs a ticket, and prices are listed before sales tax.
-- [Leavenworth Adventure Park](https://www.leavenworthadventurepark.com/hours-and-schedule) is currently open Thursday-Monday 10 a.m.-6 p.m.; last reservable timeslot is 5 p.m. and weather can pause operations.
-- [Grand Coulee Dam Visitor Center](https://www.usbr.gov/pn/grandcoulee/visit/gcvc.html) is open daily 8:30 a.m.–5 p.m.; admission is free.
-- [Grand Coulee Dam](https://www.usbr.gov/pn/grandcoulee/visit/index.html): the laser light show and public tours resume May 22, 2026; tours are first-come, first-served and can be canceled without notice.
-- Since arrival will likely be after 5 p.m., treat Grand Coulee as an optional quick outdoor viewpoint/Crown Point stop only; skip the Visitor Center and tour unless the day runs much earlier than expected.
-- The Grand Coulee laser light show is the main after-hours attraction, but in July it is typically late enough that it is probably not worth waiting for before continuing to Spokane with kids.
 - Bring a [Discover Pass](https://www.discoverpass.wa.gov/) if you park at [Steamboat Rock State Park](https://parks.wa.gov/find-parks/state-parks/steamboat-rock-state-park), Crown Point, or Northrup Canyon.
 - [Steamboat Rock State Park](https://parks.wa.gov/find-parks/state-parks/steamboat-rock-state-park) is open 6:30 a.m.-dusk year-round; Crown Point stays open until the Grand Coulee Dam laser show concludes.
 - Optional: Poker at [Northern Quest Poker Room](https://www.northernquest.com/casino/poker) (Spokane night).
@@ -174,6 +168,8 @@ Highlight photo: [Silverwood Theme Park](https://www.silverwoodthemepark.com/ind
 
 **Plan:** Full day (rides + water park)
 
+- Park opens 11AM
+
 **Drive legs (approx, includes +20% buffer):**
 
 - Coeur d’Alene → Silverwood: ~40 min
@@ -184,7 +180,6 @@ Highlight photo: [Silverwood Theme Park](https://www.silverwoodthemepark.com/ind
 ### Notes / Ideas to Refine
 
 - Purchase [Silverwood](https://www.silverwoodthemepark.com/tickets/) tickets online in advance for savings and smoother entry.
-- Official 2026 calendar shows Mon, Jul 27 open: [Silverwood](https://silverwoodthemepark.com/park/simple.php?Month=7&Year=2025) 11 a.m.-9 p.m. and Boulder Beach 11 a.m.-7 p.m.
 - Pack swim gear, towels, sunscreen, and a dry-clothes bag in the daypack; Boulder Beach closes earlier than the theme park.
 
 ---
@@ -225,40 +220,32 @@ Highlight photo: [Kootenai Falls & Swinging Bridge](https://www.fs.usda.gov/r01/
 
 ---
 
-## Day 5 (Wed, Jul 29, 2026) – Kalispell → Flathead Lake → Kalispell
+## Day 5 (Wed, Jul 29, 2026) – Whitefish
 
-**Drive:** ~3–4 hrs
+**Drive:** ~1 hr
 
-Highlight photo: [Somers Beach State Park](https://fwp.mt.gov/stateparks/somers-beach)
+Highlight photo: [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake)
 
-![Somers Beach State Park](https://fwp.mt.gov/binaries/content/gallery/mtfwpproject/fwpimageset/stateparks/somers-beach/somers-beach-web-photo-1.jpg)
+![Whitefish Lake State Park](https://fwp.mt.gov/binaries/content/gallery/mtfwpproject/fwpimageset/imagegalleries/stateparks/whitefishlake/whitefishlakeboat.jpg)
 
 **Stops:**
 
-**Whitefish area options (first half, pick 1–2):**
+**Whitefish area**
 
-- [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake) (lakefront time)
 - [Whitefish Mountain Resort summer activities](https://skiwhitefish.com/summer-activities/) (scenic lift + kid-friendly activities)
 - [Whitefish Trail](https://www.whitefishlegacy.org/) (easy trails near town)
 - [Stumptown Historical Society Museum](https://www.stumptownhistoricalsociety.org/) (quick indoor stop)
-
-**Flathead Lake (second half):**
-
-- [Somers Beach State Park](https://fwp.mt.gov/stateparks/somers-beach)
-  - Recommended for a few hours of swimming (wide sandy beach when the lake is below full pool)
+- [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake) (lakefront time)
 
 **Drive legs (approx, includes +20% buffer):**
 
 - Kalispell → Whitefish: ~30 min
-- Whitefish → Somers Beach State Park: ~50 min
-- Somers Beach State Park → Kalispell: ~35 min
 
 **Stay:** [Holiday Inn Express Hotel & Suites Kalispell](https://www.ihg.com/holidayinnexpress/hotels/us/en/kalispell/fcamt/hoteldetail) (Kalispell)
 
 ### Notes / Ideas to Refine
 
-- Check late‑June/July lake level updates: [Energy Keepers “Flathead Lake Data”](https://energykeepersinc.com/flathead-lake-data/) and [USGS Flathead Lake at Polson gauge](https://waterdata.usgs.gov/monitoring-location/12371550/)
-- [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake) and [Somers Beach State Park](https://fwp.mt.gov/stateparks/somers-beach) should not require day-use reservations; nonresident Montana state park day-use is generally $8 per vehicle.
+- [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake) should not require day-use reservations; nonresident Montana state park day-use is generally $8 per vehicle.
 - [Whitefish Mountain Resort scenic lift](https://skiwhitefish.com/scenic-lift-rides/) is scheduled daily in summer 2026 from 10 a.m.-5:30 p.m.; buy online at least 48 hours ahead for the listed 10% savings.
 - Whitefish scenic lift note: children 6 and under are free but still need a free ticket/pass; pets are not permitted on scenic lift rides.
 - [Whitefish Trail](https://www.whitefishlegacy.org/maps-conditions) does not require tickets or reservations; check trail conditions if weather has been wet/muddy.
