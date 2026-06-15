@@ -237,7 +237,6 @@ Highlight photo: [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/white
   - [Lift](https://skiwhitefish.com/scenic-lift-rides) runs from 10AM until 5:30PM
   - East Rim Loop - 1 mile hiking trail, starts and ends at the summit
 - [Whitefish Trail](https://www.whitefishlegacy.org/) (easy trails near town)
-- [Stumptown Historical Society Museum](https://www.stumptownhistoricalsociety.org/) (quick indoor stop)
 - [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake) (lakefront time)
 
 **Drive legs (approx, includes +20% buffer):**
@@ -250,7 +249,6 @@ Highlight photo: [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/white
 
 - [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake) should not require day-use reservations; nonresident Montana state park day-use is generally $8 per vehicle.
 - [Whitefish Trail](https://www.whitefishlegacy.org/maps-conditions) does not require tickets or reservations; check trail conditions if weather has been wet/muddy.
-- [Stumptown Historical Society Museum](https://www.stumptownhistoricalsociety.org/whitefish-museum) is open Tuesday-Saturday 11 a.m.-3 p.m. and admission is free, so Wednesday works if you want an indoor stop.
 
 ---
 
