@@ -44,16 +44,13 @@ end_location: Bothell, WA
 | [Silverwood Theme Park](https://www.silverwoodthemepark.com/tickets/) (1‑day online) | $289 | Actual purchased price |
 | [Numerica SkyRide](https://my.spokanecity.org/riverfrontspokane/attractions/skyride/) | $57 | Base fares $51.80 + estimated Spokane sales tax, rounded up |
 | [Whitefish Mountain Resort Scenic Lift Rides](https://skiwhitefish.com/scenic-lift-rides/) | $83 | Actual purchased price |
-| [Lookout Pass Scenic Lift Rides](https://skilookout.com/summer-scenic-lift-rides-and-mtn-bike-trails/) (optional) | TBD | Summer 2026 pricing listed as “TBD” |
 | [Glacier National Park vehicle pass (7‑day)](https://www.nps.gov/glac/planyourvisit/fees.htm) | $35 | 1 vehicle; fee total |
 | [WA Discover Pass day‑use](https://www.discoverpass.wa.gov/) | $23 | $11.50/day x2 if purchased online/vendor; includes transaction/dealer fees |
-| [MT State Parks day‑use](https://fwp.mt.gov/stateparks/fees) | $8 | Somers Beach State Park; fee total |
-| [ID State Parks day‑use (MVEF)](https://parksandrecreation.idaho.gov/fees/) | $7 | Old Mission State Park; fee total |
 | Fuel (estimate) | $438 | Pump price already includes fuel taxes |
 | Food (estimate) | $1,728 | Base food budget $1,440 + 20% tax/tip buffer |
 | Parking/misc (estimate) | $100 | Buffer for paid parking, small fees, and incidental taxes |
 
-**Estimated total (excluding TBD line items; includes listed optional costs): $5,366**
+**Estimated total (excluding TBD line items; includes listed optional costs): $5,351**
 
 ---
 
@@ -274,6 +271,8 @@ Highlight photo: [Going‑to‑the‑Sun Road](https://www.nps.gov/glac/planyour
 
 - [St. Mary Falls](https://www.nps.gov/glac/planyourvisit/hikingstmary.htm) (short waterfall hike).
 - [Sun Point Nature Trail](https://www.nps.gov/glac/planyourvisit/hikingstmary.htm) (short walk with lake views).
+- [Hungry Horse Dam](https://www.usbr.gov/pn/hungryhorse/info/index.html)
+  - Note - visitor center is closed
 
 **Drive legs (approx, includes +20% buffer):**
 
@@ -306,11 +305,11 @@ Highlight photo: [Lookout Pass Scenic Lift Rides](https://skilookout.com/summer-
 **Stops:**
 
 - [St. Regis Travel Center](https://stregistravelcenter.com/) (quick break + huckleberry shake)
-- [Lookout Pass Scenic Lift Rides](https://skilookout.com/summer-scenic-lift-rides-and-mtn-bike-trails/) (if operating)
 - Welcome to Idaho sign (near Lookout Pass, I‑90)
-- [Sierra Silver Mine Tour](https://silverminetour.org/) (Wallace, optional)
+- [Sierra Silver Mine Tour](https://silverminetour.org/) (Wallace)
   - Duration: plan about 1 hour 15 minutes
   - Hours: June–Aug 10 AM–4 PM; tours depart every 30 minutes (first at 10 AM, last at 4 PM)
+- Center of the universe, Wallace
 - [Wallace Historic District / Visitor Center](https://www.silvervalleychamber.com/wallace)
 - [Coeur d’Alene’s Old Mission State Park (Cataldo)](https://parksandrecreation.idaho.gov/state-park/coeur-dalenes-old-mission-state-park/)
 
@@ -330,7 +329,6 @@ Highlight photo: [Lookout Pass Scenic Lift Rides](https://skilookout.com/summer-
 - [Sierra Silver Mine Tour](https://silverminetour.org/take-the-mine-tour/) details: Underground hard‑rock mining tour with a narrated trolley ride through historic Wallace. Tours depart every 30 minutes, first at 10 a.m. and last at 4 p.m.; plan about 1 hour 15 minutes.
 - Sierra Silver Mine reservations are recommended for a summer Friday; bring a light jacket for the mine, which is around 50°F.
 - [Wallace Historic District](https://wallace.id.gov/) is fine as a casual walk with no reservation; specific museums/shops may have their own hours.
-- [Coeur d’Alene’s Old Mission State Park](https://parksandrecreation.idaho.gov/state-park/coeur-dalenes-old-mission-state-park/) summer hours are 9 a.m.-5 p.m.; expect a $7 motor vehicle entrance fee plus exhibit fees if you go inside.
 
 ---
 
