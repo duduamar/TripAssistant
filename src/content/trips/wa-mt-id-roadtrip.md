@@ -22,9 +22,9 @@ end_location: Bothell, WA
 | Days 1–2 | Sat–Sun, Jul 25–26, 2026 | Spokane Valley | [Tru by Hilton Spokane Valley](https://www.hilton.com/en/hotels/gegsvru-tru-spokane-valley/hotel-info/) | $230 |
 | Day 3 | Mon, Jul 27, 2026 | Ponderay (Sandpoint area) | [Best Western Plus Ponderay Mountain Lodge](https://www.bestwestern.com/en_US/book/hotels-in-ponderay/best-western-plus-ponderay-mountain-lodge/propertyCode.13063.html) | $223 |
 | Days 4–6 | Tue–Thu, Jul 28–30, 2026 | Kalispell | [Holiday Inn Express Hotel & Suites Kalispell](https://www.ihg.com/holidayinnexpress/hotels/us/en/kalispell/fcamt/hoteldetail) | $1,112 |
-| Day 7 | Fri, Jul 31, 2026 | Spokane | [Hampton Inn & Suites Spokane Downtown-South](https://www.hilton.com/en/hotels/gegdshx-hampton-suites-spokane-downtown-south/) | $186 |
+| Day 7 | Fri, Jul 31, 2026 | Spokane | [Hampton Inn Spokane](https://www.hilton.com/en/hotels/skawahx-hampton-spokane/) | $110 |
 | Day 8 | Sat, Aug 1, 2026 | Home (Bothell) | N/A | N/A |
-| **Total** |  |  |  | **$1,751** |
+| **Total** |  |  |  | **$1,675** |
 
 ## Cost Estimate (Trip Total)
 
@@ -38,7 +38,7 @@ end_location: Bothell, WA
 
 | Category | Estimate | Notes / Source |
 | --- | --- | --- |
-| Lodging (actual, tax/fee inclusive) | $1,751 | From Lodging Summary; assumes booked totals include hotel taxes and fees |
+| Lodging (actual, tax/fee inclusive) | $1,675 | From Lodging Summary; assumes booked totals include hotel taxes and fees |
 | Avis full-size SUV rental (actual, tax/fee inclusive) | $785 | Pickup Fri, Jul 24, 2026; return Sun, Aug 2, 2026; Bellevue location |
 | [Leavenworth Adventure Park Alpine Coaster](https://www.leavenworthadventurepark.com/tickets-pricing) | $62 | Actual purchased price |
 | [Silverwood Theme Park](https://www.silverwoodthemepark.com/tickets/) (1‑day online) | $289 | Actual purchased price |
@@ -50,7 +50,7 @@ end_location: Bothell, WA
 | Food (estimate) | $1,728 | Base food budget $1,440 + 20% tax/tip buffer |
 | Parking/misc (estimate) | $100 | Buffer for paid parking, small fees, and incidental taxes |
 
-**Estimated total (excluding TBD line items; includes listed optional costs): $5,351**
+**Estimated total (excluding TBD line items; includes listed optional costs): $5,275**
 
 ---
 
@@ -320,7 +320,7 @@ Highlight photo: [Lookout Pass Scenic Lift Rides](https://skilookout.com/summer-
 - Wallace → Cataldo: ~25 min
 - Cataldo → Spokane: ~1h10
 
-**Stay:** [Hampton Inn & Suites Spokane Downtown-South](https://www.hilton.com/en/hotels/gegdshx-hampton-suites-spokane-downtown-south/)
+**Stay:** [Hampton Inn Spokane](https://www.hilton.com/en/hotels/skawahx-hampton-spokane/)
 
 ### Notes / Ideas to Refine
 
