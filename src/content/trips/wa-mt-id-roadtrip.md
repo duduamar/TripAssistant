@@ -12,7 +12,7 @@ end_location: Bothell, WA
 - Dates: Sat, Jul 25 – Sat, Aug 1, 2026
 - Participants: Family of 4 (married couple + 2 daughters ages 8 and 3)
 - Start/End: Bothell, WA
-- Regions: Eastern Washington → Northern Idaho → Western Montana → Glacier → return via Palouse
+- Regions: Eastern Washington → Northern Idaho → Western Montana → Glacier → return via Soap Lake
 - Rental car: Avis full-size SUV, pickup Fri, Jul 24, 2026 and return Sun, Aug 2, 2026 at the Bellevue location ($785)
 
 ## Lodging Summary (Grouped)
@@ -45,12 +45,12 @@ end_location: Bothell, WA
 | [Numerica SkyRide](https://my.spokanecity.org/riverfrontspokane/attractions/skyride/) | $57 | Base fares $51.80 + estimated Spokane sales tax, rounded up |
 | [Whitefish Mountain Resort Scenic Lift Rides](https://skiwhitefish.com/scenic-lift-rides/) | $83 | Actual purchased price |
 | [Glacier National Park vehicle pass (7‑day)](https://www.nps.gov/glac/planyourvisit/fees.htm) | $35 | 1 vehicle; fee total |
-| [WA Discover Pass day‑use](https://www.discoverpass.wa.gov/) | $23 | $11.50/day x2 if purchased online/vendor; includes transaction/dealer fees |
+| [WA Discover Pass day‑use](https://www.discoverpass.wa.gov/) | $12 | $11.50/day x1 (Steamboat Rock, Day 1) if purchased online/vendor; includes transaction/dealer fees. Day 8 now stops at Smokiam Park (Soap Lake), a free city park, so no second pass needed. |
 | Fuel (estimate) | $438 | Pump price already includes fuel taxes |
 | Food (estimate) | $1,728 | Base food budget $1,440 + 20% tax/tip buffer |
 | Parking/misc (estimate) | $100 | Buffer for paid parking, small fees, and incidental taxes |
 
-**Estimated total (excluding TBD line items; includes listed optional costs): $5,275**
+**Estimated total (excluding TBD line items; includes listed optional costs): $5,264**
 
 ---
 
@@ -332,35 +332,40 @@ Highlight photo: [Lookout Pass Scenic Lift Rides](https://skilookout.com/summer-
 
 ---
 
-## Day 8 (Sat, Aug 1, 2026) – Spokane → Home (Bothell)
+## Day 8 (Sat, Aug 1, 2026) – Spokane → Soap Lake → Ellensburg → Home (Bothell)
 
-**Drive:** ~7h10 (driving only, excludes stops)
+**Drive:** ~6h50 (driving only, excludes stops)
 
-Highlight photo: [Palouse Falls State Park Heritage Site](https://parks.wa.gov/find-parks/state-parks/palouse-falls-state-park-heritage-site)
+Highlight photo: [Smokiam Park (Soap Lake)](https://www.soaplakewa.gov/parks)
 
-![Palouse Falls](https://parks.wa.gov/sites/default/files/styles/square_600/public/2023-04/Palouse%20Falls%20Wide%20Angle.jpg?itok=Zh-pTYu1)
+![Smokiam Park, Soap Lake](https://images.squarespace-cdn.com/content/v1/5d56f8fab78e1e000183cba4/1570385469513-NI3YHPLGMIFPKN231CN8/Photo-RL-SoapLakeB%26W.JPG)
 
 **Stops:**
 
-- [Palouse Falls State Park](https://parks.wa.gov/find-parks/state-parks/palouse-falls-state-park-heritage-site)
-  - Main viewpoint
-  - Short walk options
-- [Frenchman Coulee Recreation Area](https://www.nps.gov/places/frenchman-coulee-recreation-area.htm) (quick scenic stop)
+- [Smokiam Park](https://www.soaplakewa.gov/parks) (Soap Lake)
+  - ~2 hour stop
+  - Lakeshore city park on Soap Lake with playground, picnic areas/grills, and walking paths
+  - Free entry
+- [Irene Rinehart Riverfront Park](https://ci.ellensburg.wa.us/352/Irene-Rinehart-Riverfront-Park) (Ellensburg)
+  - ~45 min–1 hour stop; right off I-90 on the way back
+  - 117-acre park along the Yakima River with a children's water playground, easy trails, picnic areas, and beach access
+  - Free entry
 
 **Drive legs (approx, includes +20% buffer):**
 
-- Spokane → Palouse Falls: ~2h40
-- Palouse Falls → Vantage (Frenchman Coulee): ~1h50
-- Vantage → Bothell: ~2h40
+- Spokane → Soap Lake: ~2h40
+- Soap Lake → Ellensburg: ~1h30
+- Ellensburg → Bothell: ~2h40
 
 **Stay:** Home (Bothell)
 
 ### Notes / Ideas to Refine
 
-- [Palouse Falls State Park](https://parks.wa.gov/find-parks/state-parks/palouse-falls-state-park-heritage-site) summer hours are 6:30 a.m.-dusk; bring a Discover Pass or buy a day pass.
-- Palouse Falls is day-use only and parking is extremely limited, especially on weekends and holidays; expect possible waits and avoid arriving too late.
-- All trails into the canyon and to the base of Palouse Falls are permanently closed; keep this stop to the designated viewpoints and short legal paths.
-- [Frenchman Coulee Recreation Area](https://www.nps.gov/places/frenchman-coulee-recreation-area.htm) is a quick scenic/photo stop with no ticket or reservation listed by NPS.
+- [Smokiam Park](https://www.soaplakewa.gov/parks) hours are 8 a.m.-10 p.m.; no ticket, reservation, or Discover Pass needed (free city park).
+- Address: 311 Daisy St N, Soap Lake, WA 98851.
+- Soap Lake is a mineral lake known for its soft, slightly slick-feeling water near shore and sulfur-like smell; fine for wading, but keep an eye on the little ones and rinse off before getting back in the car.
+- [Irene Rinehart Riverfront Park](https://ci.ellensburg.wa.us/352/Irene-Rinehart-Riverfront-Park) hours are 5 a.m.-10 p.m.; no ticket or reservation needed. Address: 1081 Umptanum Rd, Ellensburg, WA 98926.
+- Total drive + stop time for the day is ~9h30-9h50 including both stops; consider an early start from Spokane given the two young kids.
 
 ---
 
