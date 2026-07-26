@@ -126,9 +126,15 @@ h1 {
 }
 
 /* Days that have already passed are crossed off. */
+/* Past day tabs read as "done": a check mark plus dimming. */
 .tab-chip.is-past {
-  text-decoration: line-through;
-  opacity: 0.5;
+  opacity: 0.55;
+}
+
+.tab-chip.is-past::before {
+  content: "✓ ";
+  font-weight: 800;
+  color: #7ee0a6;
 }
 
 .day-summary.is-past {
