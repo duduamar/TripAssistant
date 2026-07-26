@@ -154,9 +154,15 @@ h1 {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100"><line x1="0" y1="100" x2="100" y2="0" stroke="%238f3f17" stroke-width="3.5" vector-effect="non-scaling-stroke"/></svg>');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /* Drawn as a gradient band so the line has the same pixel thickness on
+     every card regardless of its width/height. */
+  background-image: linear-gradient(
+    to bottom right,
+    transparent calc(50% - 2px),
+    #8f3f17 calc(50% - 2px),
+    #8f3f17 calc(50% + 2px),
+    transparent calc(50% + 2px)
+  );
 }
 
 .day-grid {
