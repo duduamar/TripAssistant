@@ -4,6 +4,7 @@ import { compactDayLabel, dayRoute } from '../lib/ui';
 interface DayTab {
   number: number;
   title: string;
+  dateIso?: string | null;
 }
 
 interface Props {
@@ -22,8 +23,27 @@ const { days, active, baseUrl } = Astro.props;
       class:list={["tab-chip", active === day.number && 'is-active']}
       href={dayRoute(baseUrl, day.number)}
       title={day.title}
+      data-date-iso={day.dateIso ?? undefined}
     >
       {compactDayLabel(day.number)}
     </a>
   ))}
 </nav>
+
+<script>
+  function localIsoToday() {
+    const now = new Date();
+    const yyyy = now.getFullYear();
+    const mm = String(now.getMonth() + 1).padStart(2, '0');
+    const dd = String(now.getDate()).padStart(2, '0');
+    return `${yyyy}-${mm}-${dd}`;
+  }
+
+  const todayIso = localIsoToday();
+  document.querySelectorAll<HTMLElement>('.top-tabs [data-date-iso]').forEach((tab) => {
+    const dateIso = tab.dataset.dateIso;
+    if (dateIso && dateIso < todayIso) {
+      tab.classList.add('is-past');
+    }
+  });
+</script>
