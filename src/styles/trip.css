@@ -125,6 +125,27 @@ h1 {
   background: linear-gradient(120deg, #1f4e5f, #246d8a);
 }
 
+/* Days that have already passed are crossed off. */
+.tab-chip.is-past {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.day-summary.is-past .day-name,
+.day-summary.is-past .day-date,
+.day-summary.is-past .day-title,
+.day-summary.is-past .day-preview {
+  text-decoration: line-through;
+}
+
+.day-summary.is-past {
+  opacity: 0.62;
+}
+
+.day-header.is-past h1 {
+  text-decoration: line-through;
+}
+
 .day-grid {
   display: grid;
   gap: 0.6rem;

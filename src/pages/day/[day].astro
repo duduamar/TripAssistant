@@ -19,7 +19,7 @@ export function getStaticPaths() {
       day,
       previousDay: parsedTrip.days[index - 1] ?? null,
       nextDay: parsedTrip.days[index + 1] ?? null,
-      allDays: parsedTrip.days.map((d) => ({ number: d.number, title: d.title }))
+      allDays: parsedTrip.days.map((d) => ({ number: d.number, title: d.title, dateIso: d.dateIso }))
     }
   }));
 }
@@ -28,7 +28,7 @@ interface Props {
   day: DaySection;
   previousDay: DaySection | null;
   nextDay: DaySection | null;
-  allDays: { number: number; title: string }[];
+  allDays: { number: number; title: string; dateIso: string | null }[];
 }
 
 const { day, previousDay, nextDay, allDays } = Astro.props;
@@ -54,7 +54,7 @@ const appVersion = rawAppVersion.includes('-')
   <main class="shell" data-base-url={baseUrl}>
     <TopTabs days={allDays} active={day.number} baseUrl={baseUrl} />
 
-    <section class="card">
+    <section class="card day-header" data-date-iso={day.dateIso ?? undefined}>
       <p class="eyebrow">Day {day.number}</p>
       <h1>{truncateText(day.title, 88)}</h1>
       {day.dateText && <p class="meta-line">{day.dateText}</p>}
@@ -78,6 +78,22 @@ const appVersion = rawAppVersion.includes('-')
   </main>
 
   <script>
+    function localIsoToday() {
+      const now = new Date();
+      const yyyy = now.getFullYear();
+      const mm = String(now.getMonth() + 1).padStart(2, '0');
+      const dd = String(now.getDate()).padStart(2, '0');
+      return `${yyyy}-${mm}-${dd}`;
+    }
+
+    const dayHeader = document.querySelector('.day-header');
+    if (dayHeader instanceof HTMLElement) {
+      const dateIso = dayHeader.dataset.dateIso;
+      if (dateIso && dateIso < localIsoToday()) {
+        dayHeader.classList.add('is-past');
+      }
+    }
+
     function isMapUrl(urlString) {
       try {
         const url = new URL(urlString);

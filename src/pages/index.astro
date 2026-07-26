@@ -57,7 +57,7 @@ const pageDescription = 'iPhone-friendly trip overview with day tabs and offline
 
     <section class="card day-grid" aria-label="Day pages">
       {days.map((day) => (
-        <article class="day-summary">
+        <article class="day-summary" data-date-iso={day.dateIso ?? undefined}>
           <div class="day-head">
             <p class="day-name">Day {day.number}</p>
             {day.dateText && <p class="day-date">{day.dateText}</p>}
@@ -104,6 +104,14 @@ const pageDescription = 'iPhone-friendly trip overview with day tabs and offline
 
       return dayRoutes[0]?.href;
     }
+
+    const todayIso = localIsoToday();
+    document.querySelectorAll('.day-summary[data-date-iso]').forEach((card) => {
+      const dateIso = card.dataset.dateIso;
+      if (dateIso && dateIso < todayIso) {
+        card.classList.add('is-past');
+      }
+    });
 
     const todayButton = document.getElementById('today-button');
     if (todayButton instanceof HTMLButtonElement) {
