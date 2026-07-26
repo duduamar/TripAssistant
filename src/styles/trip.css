@@ -141,24 +141,20 @@ h1 {
   opacity: 0.62;
 }
 
-/* Past day cards (overview) and the past day-page title get a single
-   diagonal line drawn corner-to-corner instead of a horizontal strike. */
+/* Past day cards (overview) and the past day-page top section get a single
+   bold diagonal line drawn corner-to-corner instead of a horizontal strike. */
 .day-summary.is-past,
-.day-header.is-past h1 {
+.day-header.is-past {
   position: relative;
 }
 
-.day-header.is-past h1 {
-  display: inline-block;
-}
-
 .day-summary.is-past::after,
-.day-header.is-past h1::after {
+.day-header.is-past::after {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100"><line x1="0" y1="100" x2="100" y2="0" stroke="%238f3f17" stroke-width="2" vector-effect="non-scaling-stroke"/></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100"><line x1="0" y1="100" x2="100" y2="0" stroke="%238f3f17" stroke-width="3.5" vector-effect="non-scaling-stroke"/></svg>');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
