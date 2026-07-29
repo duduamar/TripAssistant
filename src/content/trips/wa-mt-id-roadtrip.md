@@ -310,10 +310,7 @@ Highlight photo: [Going‑to‑the‑Sun Road](https://www.nps.gov/glac/planyour
 
 **Afternoon (east side option, if you drive over):**
 
-- [St. Mary Falls](https://www.nps.gov/glac/planyourvisit/hikingstmary.htm) (short waterfall hike).
 - [Sun Point Nature Trail](https://www.nps.gov/glac/planyourvisit/hikingstmary.htm) (short walk with lake views).
-- [Hungry Horse Dam](https://www.usbr.gov/pn/hungryhorse/info/index.html)
-  - Note - visitor center is closed
 
 **Drive legs (approx, includes +20% buffer):**
 
@@ -330,7 +327,7 @@ Highlight photo: [Going‑to‑the‑Sun Road](https://www.nps.gov/glac/planyour
 - [Glacier National Park](https://www.nps.gov/glac/planyourvisit/basicinfo.htm) is open 24/7, but facilities, trails, and roads are seasonal and weather-dependent.
 - [Going-to-the-Sun Road](https://www.nps.gov/glac/planyourvisit/goingtothesunroad.htm) does not require vehicle reservations in 2026, but check road status the night before and morning of the visit.
 - Logan Pass is the main logistics risk: parking fills very early; leave Kalispell very early if Hidden Lake Overlook is a priority, or treat Logan Pass as a flexible scenic stop.
-- No separate hike reservations are needed for Trail of the Cedars, Hidden Lake Overlook, St. Mary Falls, or Sun Point; parking availability is the constraint.
+- No separate hike reservations are needed for Trail of the Cedars, Hidden Lake Overlook, or Sun Point; parking availability is the constraint.
 - If Logan Pass parking is full, favor lower-stress west-side stops or use Sun Point as the east-side staging area for shorter walks.
 
 ---
