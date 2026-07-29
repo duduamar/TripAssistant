@@ -95,6 +95,14 @@ Highlight photo: [Leavenworth Adventure Park Alpine Coaster](https://www.leavenw
 - Bring a [Discover Pass](https://www.discoverpass.wa.gov/) if you park at [Steamboat Rock State Park](https://parks.wa.gov/find-parks/state-parks/steamboat-rock-state-park), Crown Point, or Northrup Canyon.
 - [Steamboat Rock State Park](https://parks.wa.gov/find-parks/state-parks/steamboat-rock-state-park) is open 6:30 a.m.-dusk year-round; Crown Point stays open until the Grand Coulee Dam laser show concludes.
 - Optional: Poker at [Northern Quest Poker Room](https://www.northernquest.com/casino/poker) (Spokane night).
+
+### Places Visited
+
+- Leavenworth Adventure Park
+- Ohme Gardens
+- Grand Coulee Dam
+- Spokane Valley Mall
+
 ---
 
 ## Day 2 (Sun, Jul 26, 2026) – Spokane → Coeur d’Alene
@@ -156,6 +164,13 @@ Highlight photo: [Numerica SkyRide](https://my.spokanecity.org/riverfrontspokane
 - [Coeur d’Alene city parks](https://www.cdaid.org/726/departments/parks/park-list) are open 5 a.m.-11 p.m.; no reservation needed for City Park, beach time, or Fort Sherman playground.
 - [Tubbs Hill](https://coeurdalene.org/places/idaho/coeur-dalene/hiking/tubbs-hill/) does not require tickets or reservations, but the trail is narrow/rocky/rooty and is not a great stroller option.
 
+### Places Visited
+
+- Riverfront Park (SkyRide, Ice Age Floods Playground, Looff Carrousel)
+- River Park Square Mall
+- Fort Sherman Playground
+- Coeur d’Alene City Park
+
 ---
 
 ## Day 3 (Mon, Jul 27, 2026) – [Silverwood Theme Park](https://www.silverwoodthemepark.com/index.php)
@@ -179,6 +194,10 @@ Highlight photo: [Silverwood Theme Park](https://www.silverwoodthemepark.com/ind
 ### Notes / Ideas to Refine
 
 - Pack swim gear, towels, sunscreen, and a dry-clothes bag in the daypack; Boulder Beach closes earlier than the theme park.
+
+### Places Visited
+
+- Silverwood Theme Park
 
 ---
 
@@ -215,6 +234,11 @@ Highlight photo: [Kootenai Falls & Swinging Bridge](https://www.fs.usda.gov/r01/
 - [Pend Oreille Scenic Byway](https://visitidaho.org/things-to-do/road-trips/pend-oreille-scenic-byway/) pullouts are casual scenic stops with no tickets or reservations.
 - [Kootenai Falls & Swinging Bridge](https://www.fs.usda.gov/r01/kootenai/recreation/kootenai-falls-and-swinging-bridge) does not require tickets or reservations; concession service is typically May-September.
 - Kootenai Falls trail note: the first overlook is the easiest access; the bridge/falls trails include rough trail, a railroad overpass, and metal stairs, so this is not stroller-friendly beyond the early section.
+
+### Places Visited
+
+- Kootenai Falls and Swinging Bridge
+- Woodland Park, Kalispell
 
 ---
 
