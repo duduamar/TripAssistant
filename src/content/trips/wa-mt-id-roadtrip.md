@@ -43,6 +43,7 @@ end_location: Bothell, WA
 | [Leavenworth Adventure Park Alpine Coaster](https://www.leavenworthadventurepark.com/tickets-pricing) | $62 | Actual purchased price |
 | [Silverwood Theme Park](https://www.silverwoodthemepark.com/tickets/) (1‑day online) | $289 | Actual purchased price |
 | [Numerica SkyRide](https://my.spokanecity.org/riverfrontspokane/attractions/skyride/) | $57 | Base fares $51.80 + estimated Spokane sales tax, rounded up |
+| [Montana Vortex & House of Mystery](https://www.montanavortex.com/) | $32 | 2 adults @ $12 + 1 child (age 8) @ $8; age 3 free (Day 5, Columbia Falls) |
 | [Whitefish Mountain Resort Scenic Lift Rides](https://skiwhitefish.com/scenic-lift-rides/) | $83 | Actual purchased price |
 | [Glacier National Park vehicle pass (7‑day)](https://www.nps.gov/glac/planyourvisit/fees.htm) | $35 | 1 vehicle; fee total |
 | [WA Discover Pass day‑use](https://www.discoverpass.wa.gov/) | $12 | $11.50/day x1 (Steamboat Rock, Day 1) if purchased online/vendor; includes transaction/dealer fees. Day 8 now stops at Smokiam Park (Soap Lake), a free city park, so no second pass needed. |
@@ -50,7 +51,7 @@ end_location: Bothell, WA
 | Food (estimate) | $1,728 | Base food budget $1,440 + 20% tax/tip buffer |
 | Parking/misc (estimate) | $100 | Buffer for paid parking, small fees, and incidental taxes |
 
-**Estimated total (excluding TBD line items; includes listed optional costs): $5,264**
+**Estimated total (excluding TBD line items; includes listed optional costs): $5,296**
 
 ---
 
@@ -217,7 +218,7 @@ Highlight photo: [Kootenai Falls & Swinging Bridge](https://www.fs.usda.gov/r01/
 
 ---
 
-## Day 5 (Wed, Jul 29, 2026) – Whitefish
+## Day 5 (Wed, Jul 29, 2026) – Columbia Falls (Montana Vortex) → Whitefish
 
 **Drive:** ~1 hr
 
@@ -226,6 +227,13 @@ Highlight photo: [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/white
 ![Whitefish Lake State Park](https://fwp.mt.gov/binaries/content/gallery/mtfwpproject/fwpimageset/imagegalleries/stateparks/whitefishlake/whitefishlakeboat.jpg)
 
 **Stops:**
+
+**Columbia Falls (first stop)**
+
+- [Montana Vortex & House of Mystery](https://www.montanavortex.com/) (aim for the 10 AM opening)
+  - Quirky roadside attraction: gravity-defying "House of Mystery," slanted walls, and optical-illusion effects on a guided tour
+  - Guided tour runs ~45 min; plan ~1 hour with parking
+  - On the way from Kalispell to Whitefish (7800 US Hwy 2 E, Columbia Falls)
 
 **Whitefish area**
 
@@ -238,12 +246,14 @@ Highlight photo: [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/white
 
 **Drive legs (approx, includes +20% buffer):**
 
-- Kalispell → Whitefish: ~30 min
+- Kalispell → Columbia Falls (Montana Vortex): ~20 min
+- Columbia Falls → Whitefish: ~20 min
 
 **Stay:** [Holiday Inn Express Hotel & Suites Kalispell](https://www.ihg.com/holidayinnexpress/hotels/us/en/kalispell/fcamt/hoteldetail) (Kalispell)
 
 ### Notes / Ideas to Refine
 
+- [Montana Vortex & House of Mystery](https://www.montanavortex.com/) is seasonal, open 10 a.m.–5 p.m. daily except Tuesday (open Wed, Jul 29); admission is ~$12/adult, ~$8/child (6–12), free ages 0–5, so ~$32 for this family. It can close on short notice, so call ahead (406-892-1210) the morning of the visit.
 - [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake) should not require day-use reservations; nonresident Montana state park day-use is generally $8 per vehicle.
 - [Whitefish Trail](https://www.whitefishlegacy.org/maps-conditions) does not require tickets or reservations; check trail conditions if weather has been wet/muddy.
 
