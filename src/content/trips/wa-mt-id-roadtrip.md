@@ -281,6 +281,13 @@ Highlight photo: [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/white
 - [Whitefish Lake State Park](https://fwp.mt.gov/stateparks/whitefish-lake) should not require day-use reservations; nonresident Montana state park day-use is generally $8 per vehicle.
 - [Whitefish Trail](https://www.whitefishlegacy.org/maps-conditions) does not require tickets or reservations; check trail conditions if weather has been wet/muddy.
 
+### Places Visited
+
+- Montana Vortex & House of Mystery
+- Whitefish Mountain (scenic lift and alpine coaster)
+- Clydesdale Creamery
+- Whitefish Lake State Park
+
 ---
 
 ## Day 6 (Thu, Jul 30, 2026) – Glacier National Park (from Kalispell)
