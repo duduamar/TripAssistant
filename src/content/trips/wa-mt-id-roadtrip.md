@@ -330,6 +330,13 @@ Highlight photo: [Going‑to‑the‑Sun Road](https://www.nps.gov/glac/planyour
 - No separate hike reservations are needed for Trail of the Cedars, Hidden Lake Overlook, or Sun Point; parking availability is the constraint.
 - If Logan Pass parking is full, favor lower-stress west-side stops or use Sun Point as the east-side staging area for shorter walks.
 
+### Places Visited
+
+- Logan Pass Visitor Center
+- Hidden Lake Trail
+- Marias Pass - Continental Divide
+- Goat Lick Overlook
+
 ---
 
 ## Day 7 (Fri, Jul 31, 2026) – Kalispell → Spokane (I-90 Return Route)
