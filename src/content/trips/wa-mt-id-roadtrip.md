@@ -418,3 +418,9 @@ Highlight photo: [Smokiam Park (Soap Lake)](https://www.soaplakewa.gov/parks)
 - Soap Lake is a mineral lake known for its soft, slightly slick-feeling water near shore and sulfur-like smell; fine for wading, but keep an eye on the little ones and rinse off before getting back in the car.
 - [Irene Rinehart Riverfront Park](https://ci.ellensburg.wa.us/352/Irene-Rinehart-Riverfront-Park) hours are 5 a.m.-10 p.m.; no ticket or reservation needed. Address: 1081 Umptanum Rd, Ellensburg, WA 98926.
 - Total drive + stop time for the day is ~9h30-9h50 including both stops; consider an early start from Spokane given the two young kids.
+
+### Places Visited
+
+- Soap Lake
+- Blue Heron Park, Moses Lake
+- Ellensburg
