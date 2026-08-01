@@ -375,6 +375,13 @@ Highlight photo: [Lookout Pass Scenic Lift Rides](https://skilookout.com/summer-
 - Sierra Silver Mine reservations are recommended for a summer Friday; bring a light jacket for the mine, which is around 50°F.
 - [Wallace Historic District](https://wallace.id.gov/) is fine as a casual walk with no reservation; specific museums/shops may have their own hours.
 
+### Places Visited
+
+- St. Regis Travel Center
+- Sierra Silver Mine Tour
+- Historic Downtown Wallace
+- Center of the Universe, Wallace
+
 ---
 
 ## Day 8 (Sat, Aug 1, 2026) – Spokane → Soap Lake → Ellensburg → Home (Bothell)
